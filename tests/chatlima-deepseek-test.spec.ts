@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('ChatLima DeepSeek Model Test', () => {
+test.describe('Aproject DeepSeek Model Test', () => {
     test('should select DeepSeek Chat V3 0324 model, send message, and receive response', async ({ page }) => {
-        // Step 1: Navigate to ChatLima (using baseURL from config)
+        // Step 1: Navigate to Aproject (using baseURL from config)
         await page.goto('/');
 
         // Wait for page to load
-        await expect(page).toHaveTitle('ChatLima');
+        await expect(page).toHaveTitle('Aproject');
 
         // Step 2: Click on the model selector dropdown
         await page.getByRole('combobox').first().click();
@@ -73,7 +73,7 @@ test.describe('ChatLima DeepSeek Model Test', () => {
     });
 
     test('should handle model selection and maintain state', async ({ page }) => {
-        // Navigate to ChatLima (using baseURL from config)
+        // Navigate to Aproject (using baseURL from config)
         await page.goto('/');
 
         // Open model selector

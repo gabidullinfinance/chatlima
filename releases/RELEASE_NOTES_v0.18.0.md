@@ -1,7 +1,7 @@
-# 🚀 ChatLima v0.18.0 - MASSIVE Model Library Expansion
+# 🚀 Aproject v0.18.0 - MASSIVE Model Library Expansion
 
 ## 🎯 What's New
-- **🚀 MASSIVE MODEL EXPANSION**: Added **53 total enabled models** - The largest model library expansion in ChatLima history!
+- **🚀 MASSIVE MODEL EXPANSION**: Added **53 total enabled models** - The largest model library expansion in Aproject history!
 - **🏢 Multi-Provider Coverage**: Models available through OpenRouter, Requesty, OpenAI, Anthropic, Groq, and X AI
 - **🤖 Leading AI Companies**: Now featuring models from OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, X AI, Qwen, MiniMax, and more
 - **⚡ Advanced Client Instantiation**: Completely rebuilt dynamic client creation with optimized helper functions
@@ -120,11 +120,11 @@
 - **Documentation**: Comprehensive model descriptions for better user understanding
 
 ## 🌟 Looking Forward
-This **MASSIVE expansion transforms ChatLima into the most comprehensive AI model platform available**, offering users an unprecedented **53 models from 9+ leading AI companies**. From OpenAI's flagship GPT-4.1 to Anthropic's Claude 4, Google's Gemini 2.5, Meta's Llama 4, and cutting-edge models from DeepSeek, X AI, Mistral, and more - ChatLima now provides unmatched choice, performance, and flexibility.
+This **MASSIVE expansion transforms Aproject into the most comprehensive AI model platform available**, offering users an unprecedented **53 models from 9+ leading AI companies**. From OpenAI's flagship GPT-4.1 to Anthropic's Claude 4, Google's Gemini 2.5, Meta's Llama 4, and cutting-edge models from DeepSeek, X AI, Mistral, and more - Aproject now provides unmatched choice, performance, and flexibility.
 
-**ChatLima v0.18.0 sets a new standard for AI chat applications**, positioning users at the forefront of AI innovation with access to the latest and most advanced models through multiple reliable providers. Whether you need lightning-fast responses, deep reasoning, multimodal capabilities, or specialized tasks - ChatLima has the perfect model for every use case.
+**Aproject v0.18.0 sets a new standard for AI chat applications**, positioning users at the forefront of AI innovation with access to the latest and most advanced models through multiple reliable providers. Whether you need lightning-fast responses, deep reasoning, multimodal capabilities, or specialized tasks - Aproject has the perfect model for every use case.
 
-🎯 **The future of AI is now accessible in one platform - ChatLima v0.18.0!**
+🎯 **The future of AI is now accessible in one platform - Aproject v0.18.0!**
 
 ---
 

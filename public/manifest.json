@@ -1,6 +1,6 @@
 {
-    "name": "ChatLima",
-    "short_name": "ChatLima",
+    "name": "Aproject",
+    "short_name": "Aproject",
     "description": "AI-powered chat interface with MCP support",
     "start_url": "/",
     "display": "standalone",

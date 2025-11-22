@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.22.3 - Flash Model Access & Premium Coding
+# 🚀 Aproject v0.22.3 - Flash Model Access & Premium Coding
 
 ## 🎯 What's New
 - **Enhanced Flash Model Access**: Made Google Gemini 2.5 Flash available for free users while maintaining premium Pro-tier models

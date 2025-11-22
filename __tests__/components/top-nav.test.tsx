@@ -164,12 +164,12 @@ describe('TopNav', () => {
       expect(nav).toHaveClass('sticky', 'top-0', 'z-50');
     });
 
-    test('renders ChatLima title', () => {
+    test('renders Aproject title', () => {
       renderWithProviders(<TopNav />);
       
       const title = screen.getByRole('heading', { level: 1 });
       expect(title).toBeInTheDocument();
-      expect(title).toHaveTextContent('ChatLima');
+      expect(title).toHaveTextContent('Aproject');
       expect(title).toHaveClass('text-3xl', 'font-semibold');
     });
 
@@ -300,7 +300,7 @@ describe('TopNav', () => {
       
       const heading = screen.getByRole('heading', { level: 1 });
       expect(heading).toBeInTheDocument();
-      expect(heading).toHaveTextContent('ChatLima');
+      expect(heading).toHaveTextContent('Aproject');
     });
   });
 
@@ -364,7 +364,7 @@ describe('TopNav', () => {
       
       // User sees the navigation bar
       expect(screen.getByRole('navigation')).toBeInTheDocument();
-      expect(screen.getByText('ChatLima')).toBeInTheDocument();
+      expect(screen.getByText('Aproject')).toBeInTheDocument();
       
       // User can interact with sidebar trigger
       const menuButton = screen.getByRole('button', { name: /open sidebar/i });

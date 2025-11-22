@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.21.0 - Image Input & Vision Model Enhancements
+# 🚀 Aproject v0.21.0 - Image Input & Vision Model Enhancements
 
 ## 🎯 What's New
 - **🖼️ Image Input Support**: Revolutionary new image upload functionality with full multimodal AI capabilities
@@ -150,15 +150,15 @@
 
 ## 🌟 Looking Forward
 
-ChatLima v0.21.0 represents a major leap forward in multimodal AI capabilities, bringing the power of visual understanding directly to your conversations. The addition of comprehensive image input support opens up entirely new possibilities for creative work, business productivity, education, and technical collaboration.
+Aproject v0.21.0 represents a major leap forward in multimodal AI capabilities, bringing the power of visual understanding directly to your conversations. The addition of comprehensive image input support opens up entirely new possibilities for creative work, business productivity, education, and technical collaboration.
 
-The enhanced vision model support ensures that users have access to the most accurate and powerful visual AI capabilities available. From analyzing complex charts to describing artwork, from OCR to creative inspiration, ChatLima now provides a complete multimodal AI experience.
+The enhanced vision model support ensures that users have access to the most accurate and powerful visual AI capabilities available. From analyzing complex charts to describing artwork, from OCR to creative inspiration, Aproject now provides a complete multimodal AI experience.
 
-This release builds upon our strong foundation of 53+ AI models to deliver visual AI capabilities that rival dedicated image analysis tools, all within the familiar and powerful ChatLima interface. The intuitive drag-and-drop interface makes visual AI accessible to everyone, regardless of technical expertise.
+This release builds upon our strong foundation of 53+ AI models to deliver visual AI capabilities that rival dedicated image analysis tools, all within the familiar and powerful Aproject interface. The intuitive drag-and-drop interface makes visual AI accessible to everyone, regardless of technical expertise.
 
-The careful attention to privacy, security, and performance ensures that these powerful new capabilities integrate seamlessly into existing workflows without compromising on the reliability and security that ChatLima users expect.
+The careful attention to privacy, security, and performance ensures that these powerful new capabilities integrate seamlessly into existing workflows without compromising on the reliability and security that Aproject users expect.
 
-🎯 **Transform your AI conversations with visual intelligence - experience the future of multimodal AI with ChatLima v0.21.0!**
+🎯 **Transform your AI conversations with visual intelligence - experience the future of multimodal AI with Aproject v0.21.0!**
 
 ---
 

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.33.2 - Enhanced Model Access & API Improvements
+# 🚀 Aproject v0.33.2 - Enhanced Model Access & API Improvements
 
 ## 🎯 What's New
 

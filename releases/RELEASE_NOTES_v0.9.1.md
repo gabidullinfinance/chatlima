@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.9.1 - Smart Credit Validation
+# 🚀 Aproject v0.9.1 - Smart Credit Validation
 
 ## 🎯 What's New
 - **Smart Credit Validation**: Intelligent credit checking that bypasses validation when users provide their own API keys

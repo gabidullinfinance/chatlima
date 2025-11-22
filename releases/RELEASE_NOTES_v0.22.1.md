@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.22.1 - Premium Model Updates
+# 🚀 Aproject v0.22.1 - Premium Model Updates
 
 ## 🎯 What's New
 - Enhanced model tier classification with additional premium models

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.5.1 - Debugging & Traceability Enhancements
+# 🚀 Aproject v0.5.1 - Debugging & Traceability Enhancements
 
 ## 🎯 What's New
 - Enhanced debugging capabilities in credits API and user credits tracking

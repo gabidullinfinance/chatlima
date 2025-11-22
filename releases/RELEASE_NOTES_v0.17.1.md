@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.17.1 - Model Picker Premium Access Fix
+# 🚀 Aproject v0.17.1 - Model Picker Premium Access Fix
 
 ## 🎯 What's New
 

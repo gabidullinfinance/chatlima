@@ -1,13 +1,13 @@
-# ChatLima Playwright Tests
+# Aproject Playwright Tests
 
-This directory contains automated end-to-end tests for the ChatLima application using Playwright.
+This directory contains automated end-to-end tests for the Aproject application using Playwright.
 
 ## Test Overview
 
 The test suite includes:
 
 1. **DeepSeek Model Test** - Tests the complete flow with authenticated users:
-   - Navigating to ChatLima
+   - Navigating to Aproject
    - Selecting the DeepSeek Chat V3 0324 model
    - Sending a test message
    - Verifying response is received
@@ -145,7 +145,7 @@ package.json                         # Dependencies and scripts
 12. ✅ Full user features are accessible
 
 ### Anonymous User Tests:
-1. ✅ Anonymous access to ChatLima
+1. ✅ Anonymous access to Aproject
 2. ✅ Basic chat functionality
 3. ✅ Model selection (if available)
 4. ✅ Message sending capability
@@ -239,4 +239,4 @@ If authentication continues to be problematic, consider:
 1. **Mock Authentication**: Set up a test environment with mocked auth
 2. **API Testing**: Test backend APIs directly with Playwright's API testing features
 3. **Component Testing**: Use Playwright component testing for individual components
-4. **Local Development**: Run a local version of ChatLima with simplified auth 
+4. **Local Development**: Run a local version of Aproject with simplified auth 

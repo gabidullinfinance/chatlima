@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Terms of Service - ChatLima',
-  description: 'Terms of Service for using the ChatLima platform',
+  title: 'Terms of Service - Aproject',
+  description: 'Terms of Service for using the Aproject platform',
 };
 
 export default function TermsPage() {
@@ -19,7 +19,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Welcome to ChatLima (“we,” “our,” or “us”). By accessing or using our website (https://chatlima.com) and
+                  Welcome to Aproject (“we,” “our,” or “us”). By accessing or using our website (https://chatlima.com) and
                   services, including any AI-powered chat experiences, APIs, or related features (collectively, the “Platform”),
                   you agree to be bound by these Terms of Service (“Terms”). Please read these Terms carefully before using the Platform.
                 </p>
@@ -30,7 +30,7 @@ export default function TermsPage() {
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-baseline space-x-2">
                     <span className="font-medium">“Platform”</span>
-                    <span>refers to the ChatLima website, applications, APIs, and all related services.</span>
+                    <span>refers to the Aproject website, applications, APIs, and all related services.</span>
                   </li>
                   <li className="flex items-baseline space-x-2">
                     <span className="font-medium">“Content”</span>
@@ -209,7 +209,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">12. Indemnification</h2>
                 <p className="text-gray-700">
-                  You agree to defend, indemnify, and hold harmless ChatLima and its affiliates, officers, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising from or related to your use of the Platform, your User Content, or your violation of these Terms or applicable law.
+                  You agree to defend, indemnify, and hold harmless Aproject and its affiliates, officers, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising from or related to your use of the Platform, your User Content, or your violation of these Terms or applicable law.
                 </p>
               </section>
 
@@ -270,7 +270,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">17. Entire Agreement</h2>
                 <p className="text-gray-700">
-                  These Terms constitute the entire agreement between you and ChatLima regarding your use of the Platform and supersede any prior agreements on this subject.
+                  These Terms constitute the entire agreement between you and Aproject regarding your use of the Platform and supersede any prior agreements on this subject.
                 </p>
               </section>
 

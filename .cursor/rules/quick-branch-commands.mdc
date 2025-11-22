@@ -4,7 +4,7 @@ alwaysApply: false
 ---
 # Quick Branch Commands Reference
 
-Quick reference for common feature branch operations in ChatLima.
+Quick reference for common feature branch operations in Aproject.
 
 ## 🚀 Create New Feature Branch
 ```bash

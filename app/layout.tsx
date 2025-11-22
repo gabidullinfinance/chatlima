@@ -23,7 +23,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.chatlima.com/"),
-  title: "ChatLima",
+  title: "Aproject",
   description: "Feature-rich MCP-powered AI chatbot with multi-model support and advanced tools.",
   icons: {
     icon: "/logo.png",
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "ChatLima",
+    title: "Aproject",
   },
   formatDetection: {
     telephone: false,
   },
   openGraph: {
-    siteName: "ChatLima",
+    siteName: "Aproject",
     url: "https://www.chatlima.com/",
     images: [
       {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ChatLima",
+    title: "Aproject",
     description: "Feature-rich MCP-powered AI chatbot with multi-model support and advanced tools.",
     images: ["https://www.chatlima.com/twitter-image.png"],
   },
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "default",
-    "apple-mobile-web-app-title": "ChatLima",
+    "apple-mobile-web-app-title": "Aproject",
   },
 };
 

@@ -1,14 +1,14 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('ChatLima Anonymous User Test', () => {
+test.describe('Aproject Anonymous User Test', () => {
     test('should work with anonymous authentication', async ({ page }) => {
-        // Step 1: Navigate to ChatLima (using baseURL from config)
+        // Step 1: Navigate to Aproject (using baseURL from config)
         await page.goto('/');
 
         // Wait for page to load
-        await expect(page).toHaveTitle('ChatLima');
+        await expect(page).toHaveTitle('Aproject');
 
-        // Since ChatLima supports anonymous users, we should be able to use it without signing in
+        // Since Aproject supports anonymous users, we should be able to use it without signing in
         // Wait for the interface to load
         await page.waitForLoadState('networkidle');
 
@@ -30,7 +30,7 @@ test.describe('ChatLima Anonymous User Test', () => {
         } else {
             console.log('💡 DeepSeek model not available, testing with default model');
             // Close the dropdown by clicking somewhere else
-            await page.click('h1:has-text("ChatLima")');
+            await page.click('h1:has-text("Aproject")');
         }
 
         // Step 5: Type test message in the input field
@@ -86,11 +86,11 @@ test.describe('ChatLima Anonymous User Test', () => {
     });
 
     test('should have proper interface elements for anonymous users', async ({ page }) => {
-        // Navigate to ChatLima (using baseURL from config)
+        // Navigate to Aproject (using baseURL from config)
         await page.goto('/');
 
-        // Check if ChatLima interface is loaded
-        await expect(page.getByRole('heading', { name: 'ChatLima' })).toBeVisible();
+        // Check if Aproject interface is loaded
+        await expect(page.getByRole('heading', { name: 'Aproject' })).toBeVisible();
 
         // Verify input field is ready
         await expect(page.getByRole('textbox', { name: 'Send a message...' })).toBeVisible();

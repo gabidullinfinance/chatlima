@@ -126,7 +126,7 @@ describe('IOSInstallPrompt', () => {
       await waitFor(() => {
         expect(screen.getByTestId('card')).toBeInTheDocument();
         expect(screen.getByRole('heading', { name: 'Add to Home Screen' })).toBeInTheDocument();
-        expect(screen.getByText('Quick access to ChatLima')).toBeInTheDocument();
+        expect(screen.getByText('Quick access to Aproject')).toBeInTheDocument();
       });
     });
 
@@ -568,7 +568,7 @@ describe('IOSInstallPrompt', () => {
 
     test('has proper heading structure', () => {
       expect(screen.getByRole('heading', { name: 'Add to Home Screen' })).toBeInTheDocument();
-      expect(screen.getByText('Quick access to ChatLima')).toBeInTheDocument();
+      expect(screen.getByText('Quick access to Aproject')).toBeInTheDocument();
     });
 
     test('has accessible buttons with proper labels', () => {

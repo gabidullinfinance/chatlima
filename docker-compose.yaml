@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  aproject.app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - HOSTNAME=0.0.0.0
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.aproject.entrypoints=websecure"
+      - "traefik.http.routers.aproject.rule=Host(`aproject.com`)"
+      - "traefik.http.routers.aproject.tls.certresolver=letsencrypt"
+      - "traefik.http.services.aproject.loadbalancer.server.port=5000"
+    networks:
+      - proxy
+
+
+networks:
+  proxy:
+    external: true

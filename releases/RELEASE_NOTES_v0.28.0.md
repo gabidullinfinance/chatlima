@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.28.0 - Enhanced Prompts & Smart Image Processing
+# 🚀 Aproject v0.28.0 - Enhanced Prompts & Smart Image Processing
 
 ## 🎯 What's New
 - **🎨 Template-Powered Suggested Prompts**: Enhanced suggested prompts system with dynamic template functionality for more personalized and contextual prompt suggestions

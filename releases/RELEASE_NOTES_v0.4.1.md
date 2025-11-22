@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.4.1 - Model Updates and Refinements
+# 🚀 Aproject v0.4.1 - Model Updates and Refinements
 
 ## 🎯 What's New
 - Added new DeepSeek R1 0528 model to disabled servers list for specific configurations.

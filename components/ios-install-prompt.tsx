@@ -66,7 +66,7 @@ export function IOSInstallPrompt({ onDismiss }: IOSInstallPromptProps) {
               </div>
               <div>
                 <h3 className="font-semibold text-sm">Add to Home Screen</h3>
-                <p className="text-xs text-muted-foreground">Quick access to ChatLima</p>
+                <p className="text-xs text-muted-foreground">Quick access to Aproject</p>
               </div>
             </div>
             <Button

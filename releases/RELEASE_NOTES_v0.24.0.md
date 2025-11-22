@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.24.0 - Comprehensive Presets System
+# 🚀 Aproject v0.24.0 - Comprehensive Presets System
 
 ## 🎯 What's New
 - **🎨 Complete Presets System**: Save, manage, and apply custom AI model configurations with templates

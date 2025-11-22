@@ -139,7 +139,7 @@ export default function AdminTestPage() {
           )}
 
           <div className="text-xs text-gray-500 mt-4">
-            <p>This page helps you check and set your admin status for the ChatLima admin panel.</p>
+            <p>This page helps you check and set your admin status for the Aproject admin panel.</p>
           </div>
         </CardContent>
       </Card>

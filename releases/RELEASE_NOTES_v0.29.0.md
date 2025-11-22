@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.29.0 - Chat Sharing & Enhanced Testing
+# 🚀 Aproject v0.29.0 - Chat Sharing & Enhanced Testing
 
 ## 🎯 What's New
 - **🔗 Chat Sharing Functionality**: Share your AI conversations with others through secure, privacy-focused shareable links

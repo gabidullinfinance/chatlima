@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.33.1 - JSON Repair & UI Enhancements
+# 🚀 Aproject v0.33.1 - JSON Repair & UI Enhancements
 
 ## 🎯 What's New
 

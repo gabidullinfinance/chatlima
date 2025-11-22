@@ -1,4 +1,4 @@
-# ChatLima Basic UI Tests
+# Aproject Basic UI Tests
 
 ## Overview
 
@@ -24,7 +24,7 @@ These are simple, reliable tests that focus on core UI functionality without ext
 
 ### 1. Page Load Test
 **What it tests:** Basic interface loads correctly
-- Page title is "ChatLima"
+- Page title is "Aproject"
 - Main heading is visible
 - Message input field is present
 - Model picker dropdown is present

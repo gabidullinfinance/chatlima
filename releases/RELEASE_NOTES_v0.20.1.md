@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.20.1 - New Baidu Model & Premium Status Update
+# 🚀 Aproject v0.20.1 - New Baidu Model & Premium Status Update
 
 ## 🎯 What's New
 - **🤖 New Baidu ERNIE-4.5-300B Model**: Added powerful multilingual AI model with advanced reasoning capabilities
@@ -54,11 +54,11 @@
 - **Immediate Availability**: New model and premium status changes are immediately active
 
 ## 🌟 Looking Forward
-ChatLima v0.20.1 continues our commitment to expanding AI model accessibility and capabilities. The addition of Baidu's powerful ERNIE-4.5-300B model provides users with advanced multilingual and reasoning capabilities, while making the ultra-fast Inception Mercury model free ensures that speed-optimized AI is accessible to everyone.
+Aproject v0.20.1 continues our commitment to expanding AI model accessibility and capabilities. The addition of Baidu's powerful ERNIE-4.5-300B model provides users with advanced multilingual and reasoning capabilities, while making the ultra-fast Inception Mercury model free ensures that speed-optimized AI is accessible to everyone.
 
 This release demonstrates our focus on both expanding the model library with cutting-edge AI capabilities and ensuring that premium features become more accessible to our user community. The combination of new multilingual support and democratized access to high-speed AI represents our ongoing mission to make advanced AI technology available to all users.
 
-🎯 **Experience the power of multilingual AI and ultra-fast performance with ChatLima v0.20.1!**
+🎯 **Experience the power of multilingual AI and ultra-fast performance with Aproject v0.20.1!**
 
 ---
 

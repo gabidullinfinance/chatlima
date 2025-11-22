@@ -58,7 +58,7 @@ async function testRequestyUsage() {
         baseURL: 'https://router.requesty.ai/v1',
         headers: {
             'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-            'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+            'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
         }
     });
 

@@ -116,9 +116,9 @@ export const createOpenRouterClientWithKey = (apiKey?: string, userId?: string) 
     apiKey: finalApiKey,
     headers: {
       'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-      'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+      'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
       // Add user tracking header for additional context (optional)
-      ...(userId && { 'X-ChatLima-User-ID': userId })
+      ...(userId && { 'X-Aproject-User-ID': userId })
     }
   });
 };
@@ -133,7 +133,7 @@ export const createRequestyClientWithKey = (apiKey?: string) => {
     baseURL: 'https://router.requesty.ai/v1', // Correct API endpoint for requests
     headers: {
       'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-      'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+      'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
     }
   });
 };

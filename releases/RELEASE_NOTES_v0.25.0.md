@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.25.0 - Dynamic AI Models Openrouter/Requesty Integration
+# 🚀 Aproject v0.25.0 - Dynamic AI Models Openrouter/Requesty Integration
 
 ## 🎯 What's New
 - **🌟 Dynamic Model Loading**: Real-time fetching of AI models from OpenRouter and Requesty APIs, eliminating manual model updates

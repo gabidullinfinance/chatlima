@@ -572,14 +572,14 @@ describe('ChatSidebar', () => {
       expect(screen.queryByTestId('skeleton')).not.toBeInTheDocument();
     });
 
-    test('displays ChatLima logo and title', () => {
+    test('displays Aproject logo and title', () => {
       renderWithProviders(<ChatSidebar />);
       
       const logo = screen.getByTestId('next-image');
       expect(logo).toHaveAttribute('src', '/logo.png');
-      expect(logo).toHaveAttribute('alt', 'ChatLima logo');
+      expect(logo).toHaveAttribute('alt', 'Aproject logo');
       
-      expect(screen.getByText('ChatLima')).toBeInTheDocument();
+      expect(screen.getByText('Aproject')).toBeInTheDocument();
     });
   });
 
@@ -860,8 +860,8 @@ describe('ChatSidebar', () => {
       const chatList = screen.getByTestId('chat-list');
       expect(chatList).toHaveAttribute('data-collapsed', 'true');
       
-      // ChatLima title should not be visible when collapsed
-      expect(screen.queryByText('ChatLima')).not.toBeInTheDocument();
+      // Aproject title should not be visible when collapsed
+      expect(screen.queryByText('Aproject')).not.toBeInTheDocument();
     });
 
     test('shows expanded layout on mobile even when collapsed', () => {
@@ -876,8 +876,8 @@ describe('ChatSidebar', () => {
       const chatList = screen.getByTestId('chat-list');
       expect(chatList).toHaveAttribute('data-collapsed', 'false');
       
-      // ChatLima title should be visible on mobile
-      expect(screen.getByText('ChatLima')).toBeInTheDocument();
+      // Aproject title should be visible on mobile
+      expect(screen.getByText('Aproject')).toBeInTheDocument();
     });
 
     test('closes mobile sidebar when creating new chat', () => {
@@ -1031,7 +1031,7 @@ describe('ChatSidebar', () => {
       renderWithProviders(<ChatSidebar />);
       
       expect(screen.getByText('Documentation')).toBeInTheDocument();
-      expect(screen.getByText('ChatLima on GitHub')).toBeInTheDocument();
+      expect(screen.getByText('Aproject on GitHub')).toBeInTheDocument();
     });
 
     test('sign-in button receives collapsed state for accessibility', () => {

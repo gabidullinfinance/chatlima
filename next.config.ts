@@ -12,10 +12,10 @@ const nextConfig: NextConfig = {
 
   // Optimize for development
   reactStrictMode: true,
-
+  allowedDevOrigins: ['195.58.37.113', '*.195.58.37.113'],
   // Reduce source map size in development
   productionBrowserSourceMaps: false,
-
+  output: 'standalone',
   // TypeScript and ESLint optimizations
   typescript: {
     // During development, you might want to temporarily set this to true

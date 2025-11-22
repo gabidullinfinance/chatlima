@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.31.0 - Anonymous User Cleanup System
+# 🚀 Aproject v0.31.0 - Anonymous User Cleanup System
 
 ## 🎯 What's New
 - **🧹 Automated User Cleanup**: Intelligent system to automatically identify and remove inactive anonymous users for improved database performance

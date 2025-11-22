@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.32.0 - Modular Service-Oriented Architecture
+# 🚀 Aproject v0.32.0 - Modular Service-Oriented Architecture
 
 ## 🎯 What's New
 - **🏗️ Complete Architecture Refactor**: Transformed monolithic chat route into clean, modular service-oriented architecture

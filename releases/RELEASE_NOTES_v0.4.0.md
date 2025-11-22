@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.4.0 - Support for DeepSeek R1 0528
+# 🚀 Aproject v0.4.0 - Support for DeepSeek R1 0528
 
 ## 🎯 What's New
 - Added support for the DeepSeek R1 0528 model.

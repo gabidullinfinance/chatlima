@@ -159,7 +159,7 @@ async function fetchProviderModels(
                     'Authorization': `Bearer ${apiKey}`,
                     'Content-Type': 'application/json',
                     'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-                    'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+                    'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
                 },
                 signal,
             });

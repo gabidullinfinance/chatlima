@@ -1,11 +1,11 @@
-# 🚀 ChatLima v0.6.0 - OpenRouter Pricing Analysis Tool
+# 🚀 Aproject v0.6.0 - OpenRouter Pricing Analysis Tool
 
 ## 🎯 What's New
 
 - **📊 Real-time Pricing Analysis**: New developer tool to analyze OpenRouter model costs in real-time
 - **💰 Cost Planning Dashboard**: Calculate estimated costs for different user scenarios (anonymous vs Google users)
-- **📈 Data-Driven Insights**: Token estimates based on actual ChatLima usage data from 1,254 real API requests
-- **🎯 Model Comparison**: Side-by-side cost analysis for all ChatLima-configured models
+- **📈 Data-Driven Insights**: Token estimates based on actual Aproject usage data from 1,254 real API requests
+- **🎯 Model Comparison**: Side-by-side cost analysis for all Aproject-configured models
 - **📋 Formatted Reports**: Clean table output with daily/monthly cost projections
 
 ## 🔧 Technical Implementation
@@ -52,13 +52,13 @@
 ## 📊 Data-Driven Accuracy
 
 ### Real Usage Analysis:
-- Analyzed **1,254 actual ChatLima requests** from OpenRouter API
+- Analyzed **1,254 actual Aproject requests** from OpenRouter API
 - **Input tokens**: 2,701 average (based on real avg: 2,251 + 20% buffer)
 - **Output tokens**: 441 average (based on real avg: 368 + 20% buffer)
 - **More accurate projections**: ~$0.003/request vs previous overestimates
 
 ### Model Coverage:
-- Analysis covers all ChatLima-configured models
+- Analysis covers all Aproject-configured models
 - Real-time pricing from OpenRouter API
 - Cost comparison across 30+ AI models
 
@@ -128,4 +128,4 @@ pnpm run pricing:analysis
 
 ## 🙏 Acknowledgments
 
-This release includes pricing analysis based on real ChatLima usage data, providing developers with accurate, data-driven insights for cost optimization and model selection. 
+This release includes pricing analysis based on real Aproject usage data, providing developers with accurate, data-driven insights for cost optimization and model selection. 

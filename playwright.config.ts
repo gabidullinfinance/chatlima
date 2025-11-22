@@ -65,7 +65,7 @@ export default defineConfig({
     ],
 
     webServer: {
-        command: 'echo "Using external ChatLima server"',
+        command: 'echo "Using external Aproject server"',
         url: 'https://preview.chatlima.com',
         reuseExistingServer: true,
         timeout: 120 * 1000,

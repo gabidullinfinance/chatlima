@@ -1,5 +1,5 @@
 <a href="https://www.chatlima.com">
-  <h1 align="center">ChatLima</h1>
+  <h1 align="center">Aproject</h1>
 </a>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 <br/>
 
-# ChatLima
+# Aproject
 
 Feature-rich MCP-powered AI chatbot with multi-model support and advanced tools.
 
@@ -111,7 +111,7 @@ This project is a fork of [scira-mcp-chat](https://github.com/zaidmukaddam/scira
 - **PDF Download Button**: One-click access to export conversations from chat list
 
 ### 📝 Smart Code Input
-ChatLima automatically detects when you paste code and wraps it in proper markdown code blocks for better formatting:
+Aproject automatically detects when you paste code and wraps it in proper markdown code blocks for better formatting:
 
 - **Auto-detection**: Automatically detects code based on syntax patterns, keywords, and structure
 - **Language detection**: Identifies the programming language and adds appropriate syntax highlighting
@@ -132,7 +132,7 @@ ChatLima automatically detects when you paste code and wraps it in proper markdo
 
 ### 📄 PDF Export & Sharing
 - **One-Click PDF Download**: Export entire chat conversations as professional PDF documents
-- **Professional PDF Formatting**: Clean layout with ChatLima.com branding, headers, and page numbers
+- **Professional PDF Formatting**: Clean layout with Aproject.com branding, headers, and page numbers
 - **Full Markdown Support**: PDFs preserve all markdown formatting including code blocks, headers, and lists
 - **Automatic Pagination**: Smart page breaks for long conversations
 - **Social Sharing**: Built-in sharing buttons for Twitter, Facebook, and LinkedIn

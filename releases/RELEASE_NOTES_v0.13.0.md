@@ -1,4 +1,4 @@
-# 📱 ChatLima v0.13.0 - iOS Homescreen Shortcut Support
+# 📱 Aproject v0.13.0 - iOS Homescreen Shortcut Support
 
 ## 🎯 What's New
 - **iOS Homescreen Integration**: Complete iOS homescreen shortcut functionality with native app-like experience
@@ -21,7 +21,7 @@
 - **CSS Mobile Optimization**: Enhanced styling for iOS Safari and homescreen app mode with safe area support
 
 ## 🛡️ Mobile Experience & UX
-- **Native App Feel**: When launched from home screen, ChatLima opens without browser chrome for seamless experience
+- **Native App Feel**: When launched from home screen, Aproject opens without browser chrome for seamless experience
 - **Safe Area Support**: Proper handling for notched devices (iPhone X and newer) with appropriate padding and layout
 - **Touch Optimization**: Improved touch targets and interactions specifically designed for mobile use
 - **Enhanced Typography**: Better mobile typography and spacing for improved readability on smaller screens
@@ -29,7 +29,7 @@
 - **Installation Memory**: User dismissal preferences saved to avoid annoying repeated prompts
 
 ## 📈 Benefits
-- **Quick Access**: Users can launch ChatLima directly from iOS home screen like a native app
+- **Quick Access**: Users can launch Aproject directly from iOS home screen like a native app
 - **Improved Engagement**: Easier access encourages more frequent usage on mobile devices
 - **Better Mobile UX**: Comprehensive mobile optimizations improve overall user experience
 - **Reduced Friction**: No need to open Safari and navigate to website each time

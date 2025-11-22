@@ -5,7 +5,7 @@ const authFile = 'playwright/.auth/local-user.json';
 setup('authenticate locally', async ({ page }) => {
     console.log('🔐 Starting local authentication setup...');
 
-    // Go to local ChatLima
+    // Go to local Aproject
     await page.goto('/', { waitUntil: 'networkidle' });
 
     // Take a screenshot to see what we're dealing with
@@ -18,13 +18,13 @@ setup('authenticate locally', async ({ page }) => {
     // Wait for the page to stabilize
     await page.waitForTimeout(2000);
 
-    // Check if we have ChatLima interface
-    const chatLimaHeading = page.locator('h1:has-text("ChatLima")');
+    // Check if we have Aproject interface
+    const chatLimaHeading = page.locator('h1:has-text("Aproject")');
     const signInButton = page.getByRole('button', { name: 'Sign in with Google' });
 
-    // Verify we have the ChatLima interface
+    // Verify we have the Aproject interface
     await expect(chatLimaHeading).toBeVisible();
-    console.log('✅ ChatLima interface detected on localhost');
+    console.log('✅ Aproject interface detected on localhost');
 
     // Check if we need to sign in
     if (await signInButton.isVisible()) {

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.31.1 - Daily Message Limits Security Patch
+# 🚀 Aproject v0.31.1 - Daily Message Limits Security Patch
 
 ## 🎯 What's New
 - **🔐 Critical Security Fix**: Resolved daily message limit bypass vulnerability where users could exceed limits by deleting messages

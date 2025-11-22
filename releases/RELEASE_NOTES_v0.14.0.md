@@ -1,10 +1,10 @@
-# 🚀 ChatLima v0.14.0 - Enhanced AI Model Portfolio
+# 🚀 Aproject v0.14.0 - Enhanced AI Model Portfolio
 
 ## 🎯 What's New
 
 - **Google Gemini 2.5 Pro & Flash Models**: Access to Google's latest state-of-the-art AI models with superior reasoning, coding, and multimodal capabilities
 - **MiniMax M1 Model Family**: New large-scale reasoning models with extended context support (up to 1 million tokens) and high-efficiency inference
-- **Enhanced Model Selection**: Four new premium AI models expanding ChatLima's capabilities across different use cases and performance requirements
+- **Enhanced Model Selection**: Four new premium AI models expanding Aproject's capabilities across different use cases and performance requirements
 - **Advanced Reasoning Features**: Built-in thinking capabilities in Gemini 2.5 Flash for improved accuracy and nuanced context handling
 
 ## 🔧 Technical Implementation

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.30.0 - Token Usage & Cost Metrics System
+# 🚀 Aproject v0.30.0 - Token Usage & Cost Metrics System
 
 ## 🎯 What's New
 - **📊 Real-Time Token Tracking**: Live monitoring of input/output tokens across all AI providers with accurate usage metrics

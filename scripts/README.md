@@ -1,6 +1,6 @@
 # Scripts Directory
 
-This directory contains utility scripts for development, maintenance, and testing tasks for the ChatLima project.
+This directory contains utility scripts for development, maintenance, and testing tasks for the Aproject project.
 
 ## 📁 Script Categories
 
@@ -134,7 +134,7 @@ python scripts/analyze-openrouter-data.py /path/to/openrouter_activity.csv
 
 **Features:**
 - Extracts token usage statistics from real data
-- Provides ChatLima-specific recommendations
+- Provides Aproject-specific recommendations
 - Analyzes cost per request and usage patterns
 - Compares different models and pricing
 

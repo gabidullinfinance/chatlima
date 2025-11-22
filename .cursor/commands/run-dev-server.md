@@ -1,6 +1,6 @@
 # Run Development Server
 
-Starts the ChatLima development server with proper pre-start checks and cleanup.
+Starts the Aproject development server with proper pre-start checks and cleanup.
 
 ## Command
 

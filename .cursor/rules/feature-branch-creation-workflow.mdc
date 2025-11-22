@@ -5,7 +5,7 @@ alwaysApply: false
 ---
 # Feature Branch Creation Workflow
 
-This rule provides a standardized workflow for creating new feature branches in the ChatLima project, ensuring consistent naming conventions, proper setup, and clear documentation.
+This rule provides a standardized workflow for creating new feature branches in the Aproject project, ensuring consistent naming conventions, proper setup, and clear documentation.
 
 ## 🌟 Branch Creation Process
 
@@ -280,7 +280,7 @@ git status -uno
 - Consider creating draft PRs early for feedback
 
 ### Project-Specific Considerations:
-For ChatLima specifically, consider these areas when creating branches:
+For Aproject specifically, consider these areas when creating branches:
 - **Authentication**: Features related to [auth-schema.ts](mdc:chatlima/auth-schema.ts)
 - **API Routes**: New endpoints in [app/api/](mdc:chatlima/app/api)
 - **Database**: Changes requiring [drizzle/](mdc:chatlima/drizzle) migrations

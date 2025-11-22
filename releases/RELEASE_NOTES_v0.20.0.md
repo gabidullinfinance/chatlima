@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.20.0 - New Models & Enhanced Streaming
+# 🚀 Aproject v0.20.0 - New Models & Enhanced Streaming
 
 ## 🎯 What's New
 - **🤖 Three Powerful New AI Models**: Expanded model library with specialized capabilities
@@ -90,13 +90,13 @@
 - **Immediate Availability**: New features are immediately visible after deployment
 
 ## 🌟 Looking Forward
-ChatLima v0.20.0 builds upon the solid UI foundation of v0.19.0 with significant model expansion and streaming improvements. The addition of three specialized models - ultra-fast Mercury, creative Anubis, and enhanced Mistral Small 3.2 - provides users with more tailored AI experiences for their specific needs.
+Aproject v0.20.0 builds upon the solid UI foundation of v0.19.0 with significant model expansion and streaming improvements. The addition of three specialized models - ultra-fast Mercury, creative Anubis, and enhanced Mistral Small 3.2 - provides users with more tailored AI experiences for their specific needs.
 
-The enhanced streaming capabilities ensure that users have a more reliable and responsive experience, especially when dealing with longer conversations or when needing to interrupt responses. Combined with smarter credit management, these improvements make ChatLima more efficient and user-friendly than ever.
+The enhanced streaming capabilities ensure that users have a more reliable and responsive experience, especially when dealing with longer conversations or when needing to interrupt responses. Combined with smarter credit management, these improvements make Aproject more efficient and user-friendly than ever.
 
 This release represents our continued commitment to providing both cutting-edge AI capabilities and exceptional user experience, setting the stage for even more exciting developments ahead.
 
-🎯 **Discover new possibilities with ChatLima v0.20.0's expanded model library and enhanced streaming!**
+🎯 **Discover new possibilities with Aproject v0.20.0's expanded model library and enhanced streaming!**
 
 ---
 

@@ -48,7 +48,7 @@ function generateChatPDF(chat: any): Buffer {
     const maxWidth = pageWidth - 2 * margin;
     let y = 30;
 
-    // Add ChatLima.com branding to top-right corner of first page
+    // Add Aproject.com branding to top-right corner of first page
     addHeaderBranding(doc, pageWidth, margin);
 
     // Header

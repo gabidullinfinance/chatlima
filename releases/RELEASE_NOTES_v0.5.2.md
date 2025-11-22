@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.5.2 - Enhanced Credit Management & Error Handling
+# 🚀 Aproject v0.5.2 - Enhanced Credit Management & Error Handling
 
 ## 🎯 What's New
 - **Improved Credit Balance Checks**: Enhanced validation to prevent negative credit balance issues

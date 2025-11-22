@@ -5,7 +5,7 @@ const authFile = 'playwright/.auth/user.json';
 setup('authenticate', async ({ page }) => {
     console.log('🔐 Starting authentication setup...');
 
-    // Go to ChatLima
+    // Go to Aproject
     await page.goto('https://preview.chatlima.com/', { waitUntil: 'networkidle' });
 
     // Take a screenshot to see what we're dealing with
@@ -26,12 +26,12 @@ setup('authenticate', async ({ page }) => {
     // Wait for the page to stabilize
     await page.waitForTimeout(2000);
 
-    // Check if we have ChatLima interface
-    const chatLimaHeading = page.locator('h1:has-text("ChatLima")');
+    // Check if we have Aproject interface
+    const chatLimaHeading = page.locator('h1:has-text("Aproject")');
     const signInButton = page.getByRole('button', { name: 'Sign in with Google' });
 
     if (await chatLimaHeading.isVisible()) {
-        console.log('✅ ChatLima interface detected');
+        console.log('✅ Aproject interface detected');
 
         // Check if we need to sign in
         if (await signInButton.isVisible()) {
@@ -65,9 +65,9 @@ setup('authenticate', async ({ page }) => {
                         console.log('⏳ Please sign in manually in the browser. Waiting up to 60 seconds...');
                     }
 
-                    // Wait to be redirected back to ChatLima
+                    // Wait to be redirected back to Aproject
                     await page.waitForURL(/preview\.chatlima\.com/, { timeout: 60000 });
-                    console.log('🔄 Redirected back to ChatLima');
+                    console.log('🔄 Redirected back to Aproject');
                 }
             } catch (error) {
                 console.log('⚠️ Authentication flow error:', error);
@@ -80,12 +80,12 @@ setup('authenticate', async ({ page }) => {
         // Wait for the interface to settle
         await page.waitForTimeout(3000);
 
-        // Verify we have the ChatLima interface
+        // Verify we have the Aproject interface
         await expect(chatLimaHeading).toBeVisible();
-        console.log('✅ ChatLima interface confirmed');
+        console.log('✅ Aproject interface confirmed');
 
     } else {
-        console.log('❌ ChatLima interface not detected');
+        console.log('❌ Aproject interface not detected');
         console.log('🔍 Current URL:', page.url());
         console.log('📄 Current title:', await page.title());
 

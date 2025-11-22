@@ -1,6 +1,6 @@
 # Token Metrics Components
 
-This directory contains React components for displaying token usage and cost metrics in the ChatLima application. The components are designed to be responsive, accessible, and consistent with the existing design system.
+This directory contains React components for displaying token usage and cost metrics in the Aproject application. The components are designed to be responsive, accessible, and consistent with the existing design system.
 
 ## Components
 

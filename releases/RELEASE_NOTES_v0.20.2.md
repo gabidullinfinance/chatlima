@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.20.2 - New X AI Grok 4 Model
+# 🚀 Aproject v0.20.2 - New X AI Grok 4 Model
 
 ## 🎯 What's New
 - **🤖 New X AI Grok 4 Model**: Added xAI's latest reasoning model with advanced capabilities
@@ -48,11 +48,11 @@
 - **Immediate Availability**: New model is immediately active for premium users
 
 ## 🌟 Looking Forward
-ChatLima v0.20.2 continues our commitment to expanding AI model capabilities with cutting-edge technology. The addition of xAI's Grok 4 model provides users with advanced reasoning capabilities, parallel tool calling, and multimodal support. This premium model represents our ongoing mission to provide access to the most advanced AI technology available.
+Aproject v0.20.2 continues our commitment to expanding AI model capabilities with cutting-edge technology. The addition of xAI's Grok 4 model provides users with advanced reasoning capabilities, parallel tool calling, and multimodal support. This premium model represents our ongoing mission to provide access to the most advanced AI technology available.
 
 The integration of Grok 4 demonstrates our focus on offering diverse AI capabilities that cater to different use cases and user needs. From complex reasoning tasks to sophisticated tool calling workflows, this new model expands the possibilities for AI-powered applications and conversations.
 
-🎯 **Experience advanced reasoning and multimodal capabilities with ChatLima v0.20.2!**
+🎯 **Experience advanced reasoning and multimodal capabilities with Aproject v0.20.2!**
 
 ---
 

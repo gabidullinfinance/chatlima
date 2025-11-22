@@ -98,7 +98,7 @@ class ModelEndpointTester {
         const response = await fetch(providerConfig.endpoint, {
             headers: {
                 'Authorization': `Bearer ${apiKey}`,
-                'User-Agent': 'ChatLima/1.0 Model Endpoint Tester'
+                'User-Agent': 'Aproject/1.0 Model Endpoint Tester'
             }
         });
 
@@ -165,12 +165,12 @@ class ModelEndpointTester {
             const headers: Record<string, string> = {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${apiKey}`,
-                'User-Agent': 'ChatLima/1.0 Model Endpoint Tester'
+                'User-Agent': 'Aproject/1.0 Model Endpoint Tester'
             };
 
             // Add provider-specific headers for both OpenRouter and Requesty
             headers['HTTP-Referer'] = 'https://chatlima.app';
-            headers['X-Title'] = 'ChatLima Model Endpoint Test';
+            headers['X-Title'] = 'Aproject Model Endpoint Test';
 
             const controller = new AbortController();
             const timeoutId = setTimeout(() => controller.abort(), this.config.requestTimeoutMs);

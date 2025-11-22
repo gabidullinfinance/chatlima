@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.10.0 - Enhanced Model Support & Navigation
+# 🚀 Aproject v0.10.0 - Enhanced Model Support & Navigation
 
 ## 🎯 What's New
 - **New Mistral Models**: Added support for the latest Mistral Magistral Small and Medium 2506 models

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.3.1 - Documentation Link Update
+# 🚀 Aproject v0.3.1 - Documentation Link Update
 
 ## 🎯 What's New
 - Added a new link to the documentation website.

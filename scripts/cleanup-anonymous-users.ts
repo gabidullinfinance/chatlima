@@ -180,7 +180,7 @@ async function start() {
 Anonymous User Cleanup CLI Script
 
 DESCRIPTION:
-  Clean up inactive anonymous users from the ChatLima database.
+  Clean up inactive anonymous users from the Aproject database.
   This script provides multiple modes of operation for safety and flexibility.
 
 USAGE:

@@ -1,16 +1,16 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('ChatLima Basic UI Tests', () => {
+test.describe('Aproject Basic UI Tests', () => {
 
     test('should load page and display core interface elements', async ({ page }) => {
         // Navigate to the home page
         await page.goto('/');
 
         // Verify the page title
-        await expect(page).toHaveTitle('ChatLima');
+        await expect(page).toHaveTitle('Aproject');
 
         // Verify the main heading is visible
-        await expect(page.getByRole('heading', { name: 'ChatLima' })).toBeVisible();
+        await expect(page.getByRole('heading', { name: 'Aproject' })).toBeVisible();
 
         // Verify the message input field is present
         await expect(page.getByPlaceholder('Send a message...')).toBeVisible();
@@ -85,8 +85,8 @@ test.describe('ChatLima Basic UI Tests', () => {
         // Navigate to the home page
         await page.goto('/');
 
-        // Find the logo link - it should contain "ChatLima" text and be a link
-        const logoLink = page.getByRole('link', { name: /ChatLima/i }).first();
+        // Find the logo link - it should contain "Aproject" text and be a link
+        const logoLink = page.getByRole('link', { name: /Aproject/i }).first();
 
         // Verify logo link is visible and clickable
         await expect(logoLink).toBeVisible();
@@ -99,7 +99,7 @@ test.describe('ChatLima Basic UI Tests', () => {
         await expect(page).toHaveURL('/');
 
         // Verify the page title is still correct
-        await expect(page).toHaveTitle('ChatLima');
+        await expect(page).toHaveTitle('Aproject');
 
         console.log('✅ Logo link navigation working correctly');
     });
@@ -171,7 +171,7 @@ test.describe('ChatLima Basic UI Tests', () => {
         await newChatButton.click();
 
         // Verify we're still on a valid page (could be home or new chat route)
-        await expect(page).toHaveTitle('ChatLima');
+        await expect(page).toHaveTitle('Aproject');
 
         // Verify the message input is still available (indicating chat interface is ready)
         await expect(page.getByPlaceholder('Send a message...')).toBeVisible();

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.32.1 - Social Sharing Enhancement
+# 🚀 Aproject v0.32.1 - Social Sharing Enhancement
 
 ## 🎯 What's New
 - **Social Sharing Buttons**: Added Twitter, Facebook, LinkedIn, and copy link buttons to shared chat pages

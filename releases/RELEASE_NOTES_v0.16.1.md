@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.16.1 - Enhanced Accessibility & Visual Polish
+# 🚀 Aproject v0.16.1 - Enhanced Accessibility & Visual Polish
 
 ## 🎯 What's New
 

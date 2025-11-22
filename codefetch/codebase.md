@@ -1399,7 +1399,7 @@ playwright.config.ts
 65 |     ],
 66 | 
 67 |     webServer: {
-68 |         command: 'echo "Using external ChatLima server"',
+68 |         command: 'echo "Using external Aproject server"',
 69 |         url: 'https://preview.chatlima.com',
 70 |         reuseExistingServer: true,
 71 |         timeout: 120 * 1000,
@@ -1657,7 +1657,7 @@ ai/providers.ts
 68 |   apiKey: getApiKey('OPENROUTER_API_KEY'),
 69 |   headers: {
 70 |     'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-71 |     'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+71 |     'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
 72 |   }
 73 | });
 74 | 
@@ -1666,7 +1666,7 @@ ai/providers.ts
 77 |   baseURL: 'https://router.requesty.ai/v1', // Correct API endpoint for requests
 78 |   headers: {
 79 |     'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-80 |     'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+80 |     'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
 81 |   }
 82 | });
 83 | 
@@ -1720,7 +1720,7 @@ ai/providers.ts
 131 |     apiKey: finalApiKey,
 132 |     headers: {
 133 |       'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-134 |       'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+134 |       'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
 135 |     }
 136 |   });
 137 | };
@@ -1735,7 +1735,7 @@ ai/providers.ts
 146 |     baseURL: 'https://router.requesty.ai/v1', // Correct API endpoint for requests
 147 |     headers: {
 148 |       'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-149 |       'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+149 |       'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
 150 |     }
 151 |   });
 152 | };
@@ -2411,7 +2411,7 @@ app/layout.tsx
 23 | 
 24 | export const metadata: Metadata = {
 25 |   metadataBase: new URL("https://www.chatlima.com/"),
-26 |   title: "ChatLima",
+26 |   title: "Aproject",
 27 |   description: "Feature-rich MCP-powered AI chatbot with multi-model support and advanced tools.",
 28 |   icons: {
 29 |     icon: "/logo.png",
@@ -2427,13 +2427,13 @@ app/layout.tsx
 39 |   appleWebApp: {
 40 |     capable: true,
 41 |     statusBarStyle: "default",
-42 |     title: "ChatLima",
+42 |     title: "Aproject",
 43 |   },
 44 |   formatDetection: {
 45 |     telephone: false,
 46 |   },
 47 |   openGraph: {
-48 |     siteName: "ChatLima",
+48 |     siteName: "Aproject",
 49 |     url: "https://www.chatlima.com/",
 50 |     images: [
 51 |       {
@@ -2446,7 +2446,7 @@ app/layout.tsx
 58 |   },
 59 |   twitter: {
 60 |     card: "summary_large_image",
-61 |     title: "ChatLima",
+61 |     title: "Aproject",
 62 |     description: "Feature-rich MCP-powered AI chatbot with multi-model support and advanced tools.",
 63 |     images: ["https://www.chatlima.com/twitter-image.png"],
 64 |   },
@@ -2454,7 +2454,7 @@ app/layout.tsx
 66 |     "mobile-web-app-capable": "yes",
 67 |     "apple-mobile-web-app-capable": "yes",
 68 |     "apple-mobile-web-app-status-bar-style": "default",
-69 |     "apple-mobile-web-app-title": "ChatLima",
+69 |     "apple-mobile-web-app-title": "Aproject",
 70 |   },
 71 | };
 72 | 
@@ -3812,10 +3812,10 @@ components/chat-sidebar.tsx
 220 |                         <div className="flex items-center justify-between">
 221 |                             <Link href="/" className={`flex items-center gap-2 hover:opacity-80 transition-opacity ${isLayoutCollapsed ? "justify-center w-full" : ""}`}>
 222 |                                 <div className={`flex items-center justify-center rounded-full bg-primary ${isLayoutCollapsed ? 'h-6 w-6 flex-shrink-0' : 'h-8 w-8'}`}>
-223 |                                     <Image src="/logo.png" alt="ChatLima logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
+223 |                                     <Image src="/logo.png" alt="Aproject logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
 224 |                                 </div>
 225 |                                 {!isLayoutCollapsed && (
-226 |                                     <div className="font-semibold text-lg text-foreground/90">ChatLima</div>
+226 |                                     <div className="font-semibold text-lg text-foreground/90">Aproject</div>
 227 |                                 )}
 228 |                             </Link>
 229 |                         </div>
@@ -3897,10 +3897,10 @@ components/chat-sidebar.tsx
 305 |                     <div className="flex items-center justify-between">
 306 |                         <Link href="/" className={`flex items-center gap-2 hover:opacity-80 transition-opacity ${isLayoutCollapsed ? "justify-center w-full" : ""}`}>
 307 |                             <div className={`flex items-center justify-center rounded-full bg-primary ${isLayoutCollapsed ? 'h-6 w-6 flex-shrink-0' : 'h-8 w-8'}`}>
-308 |                                 <Image src="/logo.png" alt="ChatLima logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
+308 |                                 <Image src="/logo.png" alt="Aproject logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
 309 |                             </div>
 310 |                             {!isLayoutCollapsed && (
-311 |                                 <div className="font-semibold text-lg text-foreground/90">ChatLima</div>
+311 |                                 <div className="font-semibold text-lg text-foreground/90">Aproject</div>
 312 |                             )}
 313 |                         </Link>
 314 | 
@@ -4081,7 +4081,7 @@ components/chat-sidebar.tsx
 489 |                                     </Link>
 490 |                                 </TooltipTrigger>
 491 |                                 <TooltipContent side="top" sideOffset={5}>
-492 |                                     ChatLima on GitHub
+492 |                                     Aproject on GitHub
 493 |                                 </TooltipContent>
 494 |                             </Tooltip>
 495 |                         </TooltipProvider>
@@ -6139,7 +6139,7 @@ components/ios-install-prompt.tsx
 66 |               </div>
 67 |               <div>
 68 |                 <h3 className="font-semibold text-sm">Add to Home Screen</h3>
-69 |                 <p className="text-xs text-muted-foreground">Quick access to ChatLima</p>
+69 |                 <p className="text-xs text-muted-foreground">Quick access to Aproject</p>
 70 |               </div>
 71 |             </div>
 72 |             <Button
@@ -8646,7 +8646,7 @@ components/project-overview.tsx
 12 |       {/* Welcome header */}
 13 |       <div className="text-center space-y-3 max-w-2xl mx-auto">
 14 |         <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-15 |           Welcome to ChatLima
+15 |           Welcome to Aproject
 16 |         </h1>
 17 |         <p className="text-base sm:text-lg text-muted-foreground">
 18 |           Your AI-powered chat assistant. Choose a suggestion below or start typing your own message.
@@ -10558,9 +10558,9 @@ components/top-nav.tsx
 52 |           </SidebarTrigger>
 53 |         </div>
 54 |         
-55 |         {/* ChatLima title - Truly centered */}
+55 |         {/* Aproject title - Truly centered */}
 56 |         <div className="flex-1 flex justify-center">
-57 |           <h1 className="text-3xl font-semibold">ChatLima</h1>
+57 |           <h1 className="text-3xl font-semibold">Aproject</h1>
 58 |         </div>
 59 |         
 60 |         {/* Action buttons and legal links - Right side */}
@@ -12530,18 +12530,18 @@ docs/favorite-models-implementation-plan.md
 303 | 
 304 | ## Conclusion
 305 | 
-306 | This implementation plan provides a comprehensive approach to adding favorite models functionality to ChatLima. The design prioritizes simplicity, performance, and user experience while maintaining consistency with the existing codebase architecture.
+306 | This implementation plan provides a comprehensive approach to adding favorite models functionality to Aproject. The design prioritizes simplicity, performance, and user experience while maintaining consistency with the existing codebase architecture.
 307 | 
 308 | The phased approach allows for incremental development and testing, ensuring each component is solid before moving to the next phase. The plan also considers future enhancements and scalability requirements. 
 ```
 
 docs/new-features-ideas.md
 ```
-1 | Based on my analysis of the ChatLima codebase, I can now provide you with 3 new features that can be implemented next. Here's my comprehensive assessment:
+1 | Based on my analysis of the Aproject codebase, I can now provide you with 3 new features that can be implemented next. Here's my comprehensive assessment:
 2 | 
 3 | ## Current State Analysis
 4 | 
-5 | ChatLima is a feature-rich MCP-powered AI chatbot with the following key capabilities:
+5 | Aproject is a feature-rich MCP-powered AI chatbot with the following key capabilities:
 6 | 
 7 | 1. **Dynamic AI Model System**: Access to 300+ models through OpenRouter/Requesty integration with real-time loading
 8 | 2. **Favorite Models System**: Users can mark preferred AI models as favorites for quick access
@@ -12550,7 +12550,7 @@ docs/new-features-ideas.md
 11 | 5. **Mobile Experience**: Progressive Web App capabilities with iOS integration
 12 | 6. **Advanced UI/UX**: Model picker, preset management, and responsive design
 13 | 
-14 | ## 3 New Features for ChatLima
+14 | ## 3 New Features for Aproject
 15 | 
 16 | ### 1. **AI Model Performance Analytics Dashboard**
 17 | 
@@ -12592,11 +12592,11 @@ docs/new-features-ideas.md
 53 | - Create a conversation template system similar to the existing preset system
 54 | - Implement advanced search with filtering and sorting capabilities
 55 | 
-56 | **Value Proposition**: This feature would transform ChatLima from a simple chat interface into a knowledge management system, helping users organize, retrieve, and leverage their conversation history effectively.
+56 | **Value Proposition**: This feature would transform Aproject from a simple chat interface into a knowledge management system, helping users organize, retrieve, and leverage their conversation history effectively.
 57 | 
 58 | ### 3. **MCP Tool Marketplace & Discovery Platform**
 59 | 
-60 | **Description**: A built-in marketplace for discovering, installing, and managing MCP servers and tools, making it easy for users to extend ChatLima's capabilities.
+60 | **Description**: A built-in marketplace for discovering, installing, and managing MCP servers and tools, making it easy for users to extend Aproject's capabilities.
 61 | 
 62 | **Key Features**:
 63 | - **Tool Discovery**: Browse and search available MCP servers by category, functionality, and ratings
@@ -12614,7 +12614,7 @@ docs/new-features-ideas.md
 75 | - Add security scanning capabilities for MCP server configurations
 76 | - Create API endpoints for marketplace data and tool installation
 77 | 
-78 | **Value Proposition**: This feature would democratize access to MCP tools, making it easy for non-technical users to extend ChatLima's capabilities while maintaining security and reliability.
+78 | **Value Proposition**: This feature would democratize access to MCP tools, making it easy for non-technical users to extend Aproject's capabilities while maintaining security and reliability.
 79 | 
 80 | ## Implementation Priority
 81 | 
@@ -12624,7 +12624,7 @@ docs/new-features-ideas.md
 85 | 2. **Advanced Conversation Management** - Leverages existing chat infrastructure and AI capabilities
 86 | 3. **MCP Tool Marketplace** - More complex but would significantly expand the ecosystem
 87 | 
-88 | Each of these features aligns with ChatLima's existing architecture and would enhance the user experience while providing unique value propositions that differentiate it from other AI chat platforms.
+88 | Each of these features aligns with Aproject's existing architecture and would enhance the user experience while providing unique value propositions that differentiate it from other AI chat platforms.
 ```
 
 drizzle/0000_supreme_rocket_raccoon.sql
@@ -17242,8 +17242,8 @@ lib/utils.ts
 public/manifest.json
 ```
 1 | {
-2 |     "name": "ChatLima",
-3 |     "short_name": "ChatLima",
+2 |     "name": "Aproject",
+3 |     "short_name": "Aproject",
 4 |     "description": "AI-powered chat interface with MCP support",
 5 |     "start_url": "/",
 6 |     "display": "standalone",
@@ -17289,7 +17289,7 @@ public/manifest.json
 
 releases/RELEASE_NOTES_v0.10.0.md
 ```
-1 | # 🚀 ChatLima v0.10.0 - Enhanced Model Support & Navigation
+1 | # 🚀 Aproject v0.10.0 - Enhanced Model Support & Navigation
 2 | 
 3 | ## 🎯 What's New
 4 | - **New Mistral Models**: Added support for the latest Mistral Magistral Small and Medium 2506 models
@@ -17341,7 +17341,7 @@ releases/RELEASE_NOTES_v0.10.0.md
 
 releases/RELEASE_NOTES_v0.11.0.md
 ```
-1 | # 🚀 ChatLima v0.11.0 - Polar Integration & Enhanced Features
+1 | # 🚀 Aproject v0.11.0 - Polar Integration & Enhanced Features
 2 | 
 3 | ## 🎯 What's New
 4 | - **Polar Integration**: Complete integration with Polar billing platform for customer management and payments
@@ -17411,7 +17411,7 @@ releases/RELEASE_NOTES_v0.11.0.md
 
 releases/RELEASE_NOTES_v0.12.0.md
 ```
-1 | # 🚀 ChatLima v0.12.0 - Polar Production Checkout Integration
+1 | # 🚀 Aproject v0.12.0 - Polar Production Checkout Integration
 2 | 
 3 | ## 🎯 What's New
 4 | - **Production Checkout System**: Complete Polar checkout integration with user-friendly purchase flow
@@ -17487,7 +17487,7 @@ releases/RELEASE_NOTES_v0.12.0.md
 
 releases/RELEASE_NOTES_v0.12.1.md
 ```
-1 | # 🔐 ChatLima v0.12.1 - Web Search Security & Credit Validation Fix
+1 | # 🔐 Aproject v0.12.1 - Web Search Security & Credit Validation Fix
 2 | 
 3 | ## 🎯 What's Fixed
 4 | - **Enhanced Web Search Security**: Implemented robust server-side validation for web search feature access
@@ -17537,7 +17537,7 @@ releases/RELEASE_NOTES_v0.12.1.md
 
 releases/RELEASE_NOTES_v0.13.0.md
 ```
-1 | # 📱 ChatLima v0.13.0 - iOS Homescreen Shortcut Support
+1 | # 📱 Aproject v0.13.0 - iOS Homescreen Shortcut Support
 2 | 
 3 | ## 🎯 What's New
 4 | - **iOS Homescreen Integration**: Complete iOS homescreen shortcut functionality with native app-like experience
@@ -17560,7 +17560,7 @@ releases/RELEASE_NOTES_v0.13.0.md
 21 | - **CSS Mobile Optimization**: Enhanced styling for iOS Safari and homescreen app mode with safe area support
 22 | 
 23 | ## 🛡️ Mobile Experience & UX
-24 | - **Native App Feel**: When launched from home screen, ChatLima opens without browser chrome for seamless experience
+24 | - **Native App Feel**: When launched from home screen, Aproject opens without browser chrome for seamless experience
 25 | - **Safe Area Support**: Proper handling for notched devices (iPhone X and newer) with appropriate padding and layout
 26 | - **Touch Optimization**: Improved touch targets and interactions specifically designed for mobile use
 27 | - **Enhanced Typography**: Better mobile typography and spacing for improved readability on smaller screens
@@ -17568,7 +17568,7 @@ releases/RELEASE_NOTES_v0.13.0.md
 29 | - **Installation Memory**: User dismissal preferences saved to avoid annoying repeated prompts
 30 | 
 31 | ## 📈 Benefits
-32 | - **Quick Access**: Users can launch ChatLima directly from iOS home screen like a native app
+32 | - **Quick Access**: Users can launch Aproject directly from iOS home screen like a native app
 33 | - **Improved Engagement**: Easier access encourages more frequent usage on mobile devices
 34 | - **Better Mobile UX**: Comprehensive mobile optimizations improve overall user experience
 35 | - **Reduced Friction**: No need to open Safari and navigate to website each time
@@ -17623,13 +17623,13 @@ releases/RELEASE_NOTES_v0.13.0.md
 
 releases/RELEASE_NOTES_v0.14.0.md
 ```
-1 | # 🚀 ChatLima v0.14.0 - Enhanced AI Model Portfolio
+1 | # 🚀 Aproject v0.14.0 - Enhanced AI Model Portfolio
 2 | 
 3 | ## 🎯 What's New
 4 | 
 5 | - **Google Gemini 2.5 Pro & Flash Models**: Access to Google's latest state-of-the-art AI models with superior reasoning, coding, and multimodal capabilities
 6 | - **MiniMax M1 Model Family**: New large-scale reasoning models with extended context support (up to 1 million tokens) and high-efficiency inference
-7 | - **Enhanced Model Selection**: Four new premium AI models expanding ChatLima's capabilities across different use cases and performance requirements
+7 | - **Enhanced Model Selection**: Four new premium AI models expanding Aproject's capabilities across different use cases and performance requirements
 8 | - **Advanced Reasoning Features**: Built-in thinking capabilities in Gemini 2.5 Flash for improved accuracy and nuanced context handling
 9 | 
 10 | ## 🔧 Technical Implementation
@@ -17717,7 +17717,7 @@ releases/RELEASE_NOTES_v0.14.0.md
 
 releases/RELEASE_NOTES_v0.16.0.md
 ```
-1 | # 🚀 ChatLima v0.16.0 - Enhanced Model Selection & Mobile Experience
+1 | # 🚀 Aproject v0.16.0 - Enhanced Model Selection & Mobile Experience
 2 | 
 3 | ## 🎯 What's New
 4 | 
@@ -17846,7 +17846,7 @@ releases/RELEASE_NOTES_v0.16.0.md
 
 releases/RELEASE_NOTES_v0.16.1.md
 ```
-1 | # 🚀 ChatLima v0.16.1 - Enhanced Accessibility & Visual Polish
+1 | # 🚀 Aproject v0.16.1 - Enhanced Accessibility & Visual Polish
 2 | 
 3 | ## 🎯 What's New
 4 | 
@@ -17967,7 +17967,7 @@ releases/RELEASE_NOTES_v0.16.1.md
 
 releases/RELEASE_NOTES_v0.17.0.md
 ```
-1 | # 🚀 ChatLima v0.17.0 - Latest MCP Spec Implementation
+1 | # 🚀 Aproject v0.17.0 - Latest MCP Spec Implementation
 2 | 
 3 | ## 🎯 What's New
 4 | 
@@ -18093,7 +18093,7 @@ releases/RELEASE_NOTES_v0.17.0.md
 124 | 
 125 | ## 🎉 Looking Forward
 126 | 
-127 | This release establishes ChatLima as a cutting-edge MCP-compatible platform, ready for the next generation of AI tool integration. The foundation is now in place for implementing advanced features like:
+127 | This release establishes Aproject as a cutting-edge MCP-compatible platform, ready for the next generation of AI tool integration. The foundation is now in place for implementing advanced features like:
 128 | 
 129 | - **Resource Links**: Direct linking to files and resources from tool outputs
 130 | - **Interactive Workflows**: User confirmation and input collection via elicitation
@@ -18115,7 +18115,7 @@ releases/RELEASE_NOTES_v0.17.0.md
 
 releases/RELEASE_NOTES_v0.17.1.md
 ```
-1 | # 🚀 ChatLima v0.17.1 - Model Picker Premium Access Fix
+1 | # 🚀 Aproject v0.17.1 - Model Picker Premium Access Fix
 2 | 
 3 | ## 🎯 What's New
 4 | 
@@ -18262,7 +18262,7 @@ releases/RELEASE_NOTES_v0.17.1.md
 
 releases/RELEASE_NOTES_v0.17.2.md
 ```
-1 | # 🚀 ChatLima v0.17.2 - Model Picker UI Fix
+1 | # 🚀 Aproject v0.17.2 - Model Picker UI Fix
 2 | 
 3 | ## 🎯 What's New
 4 | - **Fixed Model Picker UI Glitch**: Resolved an annoying layout issue where the model picker button would visually "flip" or change content when hovering over different models in the dropdown
@@ -18304,10 +18304,10 @@ releases/RELEASE_NOTES_v0.17.2.md
 
 releases/RELEASE_NOTES_v0.18.0.md
 ```
-1 | # 🚀 ChatLima v0.18.0 - MASSIVE Model Library Expansion
+1 | # 🚀 Aproject v0.18.0 - MASSIVE Model Library Expansion
 2 | 
 3 | ## 🎯 What's New
-4 | - **🚀 MASSIVE MODEL EXPANSION**: Added **53 total enabled models** - The largest model library expansion in ChatLima history!
+4 | - **🚀 MASSIVE MODEL EXPANSION**: Added **53 total enabled models** - The largest model library expansion in Aproject history!
 5 | - **🏢 Multi-Provider Coverage**: Models available through OpenRouter, Requesty, OpenAI, Anthropic, Groq, and X AI
 6 | - **🤖 Leading AI Companies**: Now featuring models from OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, X AI, Qwen, MiniMax, and more
 7 | - **⚡ Advanced Client Instantiation**: Completely rebuilt dynamic client creation with optimized helper functions
@@ -18426,11 +18426,11 @@ releases/RELEASE_NOTES_v0.18.0.md
 120 | - **Documentation**: Comprehensive model descriptions for better user understanding
 121 | 
 122 | ## 🌟 Looking Forward
-123 | This **MASSIVE expansion transforms ChatLima into the most comprehensive AI model platform available**, offering users an unprecedented **53 models from 9+ leading AI companies**. From OpenAI's flagship GPT-4.1 to Anthropic's Claude 4, Google's Gemini 2.5, Meta's Llama 4, and cutting-edge models from DeepSeek, X AI, Mistral, and more - ChatLima now provides unmatched choice, performance, and flexibility.
+123 | This **MASSIVE expansion transforms Aproject into the most comprehensive AI model platform available**, offering users an unprecedented **53 models from 9+ leading AI companies**. From OpenAI's flagship GPT-4.1 to Anthropic's Claude 4, Google's Gemini 2.5, Meta's Llama 4, and cutting-edge models from DeepSeek, X AI, Mistral, and more - Aproject now provides unmatched choice, performance, and flexibility.
 124 | 
-125 | **ChatLima v0.18.0 sets a new standard for AI chat applications**, positioning users at the forefront of AI innovation with access to the latest and most advanced models through multiple reliable providers. Whether you need lightning-fast responses, deep reasoning, multimodal capabilities, or specialized tasks - ChatLima has the perfect model for every use case.
+125 | **Aproject v0.18.0 sets a new standard for AI chat applications**, positioning users at the forefront of AI innovation with access to the latest and most advanced models through multiple reliable providers. Whether you need lightning-fast responses, deep reasoning, multimodal capabilities, or specialized tasks - Aproject has the perfect model for every use case.
 126 | 
-127 | 🎯 **The future of AI is now accessible in one platform - ChatLima v0.18.0!**
+127 | 🎯 **The future of AI is now accessible in one platform - Aproject v0.18.0!**
 128 | 
 129 | ---
 130 | 
@@ -18439,7 +18439,7 @@ releases/RELEASE_NOTES_v0.18.0.md
 
 releases/RELEASE_NOTES_v0.19.0.md
 ```
-1 | # 🚀 ChatLima v0.19.0 - Enhanced UI/UX and Layout Improvements
+1 | # 🚀 Aproject v0.19.0 - Enhanced UI/UX and Layout Improvements
 2 | 
 3 | ## 🎯 What's New
 4 | - **🎨 Major UI/UX Overhaul**: Comprehensive layout improvements and navigation enhancements
@@ -18502,11 +18502,11 @@ releases/RELEASE_NOTES_v0.19.0.md
 61 | - **Immediate Availability**: UI improvements are immediately visible after deployment
 62 | 
 63 | ## 🌟 Looking Forward
-64 | ChatLima v0.19.0 represents a significant step forward in user experience design, building on the massive model library expansion of v0.18.0 with refined, intuitive interfaces. These improvements ensure that users can efficiently navigate and utilize ChatLima's extensive AI capabilities through a polished, responsive interface that works seamlessly across all devices.
+64 | Aproject v0.19.0 represents a significant step forward in user experience design, building on the massive model library expansion of v0.18.0 with refined, intuitive interfaces. These improvements ensure that users can efficiently navigate and utilize Aproject's extensive AI capabilities through a polished, responsive interface that works seamlessly across all devices.
 65 | 
-66 | The enhanced mobile experience and layout consistency make ChatLima more accessible than ever, while the technical improvements lay the foundation for future feature development. This release demonstrates our commitment to both powerful AI capabilities and exceptional user experience.
+66 | The enhanced mobile experience and layout consistency make Aproject more accessible than ever, while the technical improvements lay the foundation for future feature development. This release demonstrates our commitment to both powerful AI capabilities and exceptional user experience.
 67 | 
-68 | 🎯 **Experience the next level of AI interaction with ChatLima v0.19.0!**
+68 | 🎯 **Experience the next level of AI interaction with Aproject v0.19.0!**
 69 | 
 70 | ---
 71 | 
@@ -18515,7 +18515,7 @@ releases/RELEASE_NOTES_v0.19.0.md
 
 releases/RELEASE_NOTES_v0.20.0.md
 ```
-1 | # 🚀 ChatLima v0.20.0 - New Models & Enhanced Streaming
+1 | # 🚀 Aproject v0.20.0 - New Models & Enhanced Streaming
 2 | 
 3 | ## 🎯 What's New
 4 | - **🤖 Three Powerful New AI Models**: Expanded model library with specialized capabilities
@@ -18607,13 +18607,13 @@ releases/RELEASE_NOTES_v0.20.0.md
 90 | - **Immediate Availability**: New features are immediately visible after deployment
 91 | 
 92 | ## 🌟 Looking Forward
-93 | ChatLima v0.20.0 builds upon the solid UI foundation of v0.19.0 with significant model expansion and streaming improvements. The addition of three specialized models - ultra-fast Mercury, creative Anubis, and enhanced Mistral Small 3.2 - provides users with more tailored AI experiences for their specific needs.
+93 | Aproject v0.20.0 builds upon the solid UI foundation of v0.19.0 with significant model expansion and streaming improvements. The addition of three specialized models - ultra-fast Mercury, creative Anubis, and enhanced Mistral Small 3.2 - provides users with more tailored AI experiences for their specific needs.
 94 | 
-95 | The enhanced streaming capabilities ensure that users have a more reliable and responsive experience, especially when dealing with longer conversations or when needing to interrupt responses. Combined with smarter credit management, these improvements make ChatLima more efficient and user-friendly than ever.
+95 | The enhanced streaming capabilities ensure that users have a more reliable and responsive experience, especially when dealing with longer conversations or when needing to interrupt responses. Combined with smarter credit management, these improvements make Aproject more efficient and user-friendly than ever.
 96 | 
 97 | This release represents our continued commitment to providing both cutting-edge AI capabilities and exceptional user experience, setting the stage for even more exciting developments ahead.
 98 | 
-99 | 🎯 **Discover new possibilities with ChatLima v0.20.0's expanded model library and enhanced streaming!**
+99 | 🎯 **Discover new possibilities with Aproject v0.20.0's expanded model library and enhanced streaming!**
 100 | 
 101 | ---
 102 | 
@@ -18622,7 +18622,7 @@ releases/RELEASE_NOTES_v0.20.0.md
 
 releases/RELEASE_NOTES_v0.20.1.md
 ```
-1 | # 🚀 ChatLima v0.20.1 - New Baidu Model & Premium Status Update
+1 | # 🚀 Aproject v0.20.1 - New Baidu Model & Premium Status Update
 2 | 
 3 | ## 🎯 What's New
 4 | - **🤖 New Baidu ERNIE-4.5-300B Model**: Added powerful multilingual AI model with advanced reasoning capabilities
@@ -18678,11 +18678,11 @@ releases/RELEASE_NOTES_v0.20.1.md
 54 | - **Immediate Availability**: New model and premium status changes are immediately active
 55 | 
 56 | ## 🌟 Looking Forward
-57 | ChatLima v0.20.1 continues our commitment to expanding AI model accessibility and capabilities. The addition of Baidu's powerful ERNIE-4.5-300B model provides users with advanced multilingual and reasoning capabilities, while making the ultra-fast Inception Mercury model free ensures that speed-optimized AI is accessible to everyone.
+57 | Aproject v0.20.1 continues our commitment to expanding AI model accessibility and capabilities. The addition of Baidu's powerful ERNIE-4.5-300B model provides users with advanced multilingual and reasoning capabilities, while making the ultra-fast Inception Mercury model free ensures that speed-optimized AI is accessible to everyone.
 58 | 
 59 | This release demonstrates our focus on both expanding the model library with cutting-edge AI capabilities and ensuring that premium features become more accessible to our user community. The combination of new multilingual support and democratized access to high-speed AI represents our ongoing mission to make advanced AI technology available to all users.
 60 | 
-61 | 🎯 **Experience the power of multilingual AI and ultra-fast performance with ChatLima v0.20.1!**
+61 | 🎯 **Experience the power of multilingual AI and ultra-fast performance with Aproject v0.20.1!**
 62 | 
 63 | ---
 64 | 
@@ -18691,7 +18691,7 @@ releases/RELEASE_NOTES_v0.20.1.md
 
 releases/RELEASE_NOTES_v0.20.2.md
 ```
-1 | # 🚀 ChatLima v0.20.2 - New X AI Grok 4 Model
+1 | # 🚀 Aproject v0.20.2 - New X AI Grok 4 Model
 2 | 
 3 | ## 🎯 What's New
 4 | - **🤖 New X AI Grok 4 Model**: Added xAI's latest reasoning model with advanced capabilities
@@ -18741,11 +18741,11 @@ releases/RELEASE_NOTES_v0.20.2.md
 48 | - **Immediate Availability**: New model is immediately active for premium users
 49 | 
 50 | ## 🌟 Looking Forward
-51 | ChatLima v0.20.2 continues our commitment to expanding AI model capabilities with cutting-edge technology. The addition of xAI's Grok 4 model provides users with advanced reasoning capabilities, parallel tool calling, and multimodal support. This premium model represents our ongoing mission to provide access to the most advanced AI technology available.
+51 | Aproject v0.20.2 continues our commitment to expanding AI model capabilities with cutting-edge technology. The addition of xAI's Grok 4 model provides users with advanced reasoning capabilities, parallel tool calling, and multimodal support. This premium model represents our ongoing mission to provide access to the most advanced AI technology available.
 52 | 
 53 | The integration of Grok 4 demonstrates our focus on offering diverse AI capabilities that cater to different use cases and user needs. From complex reasoning tasks to sophisticated tool calling workflows, this new model expands the possibilities for AI-powered applications and conversations.
 54 | 
-55 | 🎯 **Experience advanced reasoning and multimodal capabilities with ChatLima v0.20.2!**
+55 | 🎯 **Experience advanced reasoning and multimodal capabilities with Aproject v0.20.2!**
 56 | 
 57 | ---
 58 | 
@@ -18754,7 +18754,7 @@ releases/RELEASE_NOTES_v0.20.2.md
 
 releases/RELEASE_NOTES_v0.21.0.md
 ```
-1 | # 🚀 ChatLima v0.21.0 - Image Input & Vision Model Enhancements
+1 | # 🚀 Aproject v0.21.0 - Image Input & Vision Model Enhancements
 2 | 
 3 | ## 🎯 What's New
 4 | - **🖼️ Image Input Support**: Revolutionary new image upload functionality with full multimodal AI capabilities
@@ -18906,15 +18906,15 @@ releases/RELEASE_NOTES_v0.21.0.md
 150 | 
 151 | ## 🌟 Looking Forward
 152 | 
-153 | ChatLima v0.21.0 represents a major leap forward in multimodal AI capabilities, bringing the power of visual understanding directly to your conversations. The addition of comprehensive image input support opens up entirely new possibilities for creative work, business productivity, education, and technical collaboration.
+153 | Aproject v0.21.0 represents a major leap forward in multimodal AI capabilities, bringing the power of visual understanding directly to your conversations. The addition of comprehensive image input support opens up entirely new possibilities for creative work, business productivity, education, and technical collaboration.
 154 | 
-155 | The enhanced vision model support ensures that users have access to the most accurate and powerful visual AI capabilities available. From analyzing complex charts to describing artwork, from OCR to creative inspiration, ChatLima now provides a complete multimodal AI experience.
+155 | The enhanced vision model support ensures that users have access to the most accurate and powerful visual AI capabilities available. From analyzing complex charts to describing artwork, from OCR to creative inspiration, Aproject now provides a complete multimodal AI experience.
 156 | 
-157 | This release builds upon our strong foundation of 53+ AI models to deliver visual AI capabilities that rival dedicated image analysis tools, all within the familiar and powerful ChatLima interface. The intuitive drag-and-drop interface makes visual AI accessible to everyone, regardless of technical expertise.
+157 | This release builds upon our strong foundation of 53+ AI models to deliver visual AI capabilities that rival dedicated image analysis tools, all within the familiar and powerful Aproject interface. The intuitive drag-and-drop interface makes visual AI accessible to everyone, regardless of technical expertise.
 158 | 
-159 | The careful attention to privacy, security, and performance ensures that these powerful new capabilities integrate seamlessly into existing workflows without compromising on the reliability and security that ChatLima users expect.
+159 | The careful attention to privacy, security, and performance ensures that these powerful new capabilities integrate seamlessly into existing workflows without compromising on the reliability and security that Aproject users expect.
 160 | 
-161 | 🎯 **Transform your AI conversations with visual intelligence - experience the future of multimodal AI with ChatLima v0.21.0!**
+161 | 🎯 **Transform your AI conversations with visual intelligence - experience the future of multimodal AI with Aproject v0.21.0!**
 162 | 
 163 | ---
 164 | 
@@ -18923,7 +18923,7 @@ releases/RELEASE_NOTES_v0.21.0.md
 
 releases/RELEASE_NOTES_v0.22.0.md
 ```
-1 | # 🚀 ChatLima v0.22.0 - Requesty Model Expansion & Model Selection Improvements
+1 | # 🚀 Aproject v0.22.0 - Requesty Model Expansion & Model Selection Improvements
 2 | 
 3 | ## 🎯 What's New
 4 | - **🆕 Major Requesty Model Expansion**: Added a wide range of new Requesty models, including the latest Anthropic Claude 4, Claude 3.5/3.7, DeepSeek, Google Gemini, Meta Llama, and more. Users now have access to dozens of new models via Requesty, greatly expanding the available AI model library.
@@ -18971,7 +18971,7 @@ releases/RELEASE_NOTES_v0.22.0.md
 
 releases/RELEASE_NOTES_v0.22.1.md
 ```
-1 | # 🚀 ChatLima v0.22.1 - Premium Model Updates
+1 | # 🚀 Aproject v0.22.1 - Premium Model Updates
 2 | 
 3 | ## 🎯 What's New
 4 | - Enhanced model tier classification with additional premium models
@@ -19011,7 +19011,7 @@ releases/RELEASE_NOTES_v0.22.1.md
 
 releases/RELEASE_NOTES_v0.22.2.md
 ```
-1 | # 🚀 ChatLima v0.22.2 - Documentation & Release Process Improvements
+1 | # 🚀 Aproject v0.22.2 - Documentation & Release Process Improvements
 2 | 
 3 | ## 🎯 What's New
 4 | - Enhanced release documentation and process standardization
@@ -19050,7 +19050,7 @@ releases/RELEASE_NOTES_v0.22.2.md
 
 releases/RELEASE_NOTES_v0.22.3.md
 ```
-1 | # 🚀 ChatLima v0.22.3 - Flash Model Access & Premium Coding
+1 | # 🚀 Aproject v0.22.3 - Flash Model Access & Premium Coding
 2 | 
 3 | ## 🎯 What's New
 4 | - **Enhanced Flash Model Access**: Made Google Gemini 2.5 Flash available for free users while maintaining premium Pro-tier models
@@ -19101,7 +19101,7 @@ releases/RELEASE_NOTES_v0.22.3.md
 
 releases/RELEASE_NOTES_v0.23.0.md
 ```
-1 | # 🚀 ChatLima v0.23.0 - Enhanced Error Recovery & Model Expansion
+1 | # 🚀 Aproject v0.23.0 - Enhanced Error Recovery & Model Expansion
 2 | 
 3 | ## 🎯 What's New
 4 | - **New Groq Kimi K2 Model**: Added ultra-fast Groq variant of Moonshot AI's Kimi K2 model for enhanced performance
@@ -19185,7 +19185,7 @@ releases/RELEASE_NOTES_v0.23.0.md
 
 releases/RELEASE_NOTES_v0.24.0.md
 ```
-1 | # 🚀 ChatLima v0.24.0 - Comprehensive Presets System
+1 | # 🚀 Aproject v0.24.0 - Comprehensive Presets System
 2 | 
 3 | ## 🎯 What's New
 4 | - **🎨 Complete Presets System**: Save, manage, and apply custom AI model configurations with templates
@@ -19322,7 +19322,7 @@ releases/RELEASE_NOTES_v0.24.0.md
 
 releases/RELEASE_NOTES_v0.25.0.md
 ```
-1 | # 🚀 ChatLima v0.25.0 - Dynamic AI Models Openrouter/Requesty Integration
+1 | # 🚀 Aproject v0.25.0 - Dynamic AI Models Openrouter/Requesty Integration
 2 | 
 3 | ## 🎯 What's New
 4 | - **🌟 Dynamic Model Loading**: Real-time fetching of AI models from OpenRouter and Requesty APIs, eliminating manual model updates
@@ -19481,7 +19481,7 @@ releases/RELEASE_NOTES_v0.25.0.md
 
 releases/RELEASE_NOTES_v0.26.0.md
 ```
-1 | # 🚀 ChatLima v0.26.0 - Favorite Models & Enhanced UX
+1 | # 🚀 Aproject v0.26.0 - Favorite Models & Enhanced UX
 2 | 
 3 | ## 🎯 What's New
 4 | 
@@ -19597,7 +19597,7 @@ releases/RELEASE_NOTES_v0.26.0.md
 
 releases/RELEASE_NOTES_v0.27.0.md
 ```
-1 | # 🚀 ChatLima v0.27.0 - Intelligent Suggested Prompts & Enhanced UX
+1 | # 🚀 Aproject v0.27.0 - Intelligent Suggested Prompts & Enhanced UX
 2 | 
 3 | ## 🎯 What's New
 4 | 
@@ -19748,7 +19748,7 @@ releases/RELEASE_NOTES_v0.27.0.md
 
 releases/RELEASE_NOTES_v0.28.0.md
 ```
-1 | # 🚀 ChatLima v0.28.0 - Enhanced Prompts & Smart Image Processing
+1 | # 🚀 Aproject v0.28.0 - Enhanced Prompts & Smart Image Processing
 2 | 
 3 | ## 🎯 What's New
 4 | - **🎨 Template-Powered Suggested Prompts**: Enhanced suggested prompts system with dynamic template functionality for more personalized and contextual prompt suggestions
@@ -19808,7 +19808,7 @@ releases/RELEASE_NOTES_v0.28.0.md
 
 releases/RELEASE_NOTES_v0.29.0.md
 ```
-1 | # 🚀 ChatLima v0.29.0 - Chat Sharing & Enhanced Testing
+1 | # 🚀 Aproject v0.29.0 - Chat Sharing & Enhanced Testing
 2 | 
 3 | ## 🎯 What's New
 4 | - **🔗 Chat Sharing Functionality**: Share your AI conversations with others through secure, privacy-focused shareable links
@@ -19902,7 +19902,7 @@ releases/RELEASE_NOTES_v0.29.0.md
 
 releases/RELEASE_NOTES_v0.3.0.md
 ```
-1 | # 🚀 ChatLima v0.3.0 - SEO & Sitemap Implementation
+1 | # 🚀 Aproject v0.3.0 - SEO & Sitemap Implementation
 2 | 
 3 | ## 🎯 What's New
 4 | 
@@ -19973,7 +19973,7 @@ releases/RELEASE_NOTES_v0.3.0.md
 
 releases/RELEASE_NOTES_v0.3.1.md
 ```
-1 | # 🚀 ChatLima v0.3.1 - Documentation Link Update
+1 | # 🚀 Aproject v0.3.1 - Documentation Link Update
 2 | 
 3 | ## 🎯 What's New
 4 | - Added a new link to the documentation website.
@@ -20004,7 +20004,7 @@ releases/RELEASE_NOTES_v0.3.1.md
 
 releases/RELEASE_NOTES_v0.4.0.md
 ```
-1 | # 🚀 ChatLima v0.4.0 - Support for DeepSeek R1 0528
+1 | # 🚀 Aproject v0.4.0 - Support for DeepSeek R1 0528
 2 | 
 3 | ## 🎯 What's New
 4 | - Added support for the DeepSeek R1 0528 model.
@@ -20044,7 +20044,7 @@ releases/RELEASE_NOTES_v0.4.0.md
 
 releases/RELEASE_NOTES_v0.4.1.md
 ```
-1 | # 🚀 ChatLima v0.4.1 - Model Updates and Refinements
+1 | # 🚀 Aproject v0.4.1 - Model Updates and Refinements
 2 | 
 3 | ## 🎯 What's New
 4 | - Added new DeepSeek R1 0528 model to disabled servers list for specific configurations.
@@ -20061,7 +20061,7 @@ releases/RELEASE_NOTES_v0.4.1.md
 
 releases/RELEASE_NOTES_v0.5.0.md
 ```
-1 | # 🚀 ChatLima v0.5.0 - Premium Access Control & Enhanced Model Management
+1 | # 🚀 Aproject v0.5.0 - Premium Access Control & Enhanced Model Management
 2 | 
 3 | ## 🎯 What's New
 4 | - **Premium Model Access Control**: Introduced intelligent credit checking system for premium AI models
@@ -20110,7 +20110,7 @@ releases/RELEASE_NOTES_v0.5.0.md
 
 releases/RELEASE_NOTES_v0.5.1.md
 ```
-1 | # 🚀 ChatLima v0.5.1 - Debugging & Traceability Enhancements
+1 | # 🚀 Aproject v0.5.1 - Debugging & Traceability Enhancements
 2 | 
 3 | ## 🎯 What's New
 4 | - Enhanced debugging capabilities in credits API and user credits tracking
@@ -20160,7 +20160,7 @@ releases/RELEASE_NOTES_v0.5.1.md
 
 releases/RELEASE_NOTES_v0.5.2.md
 ```
-1 | # 🚀 ChatLima v0.5.2 - Enhanced Credit Management & Error Handling
+1 | # 🚀 Aproject v0.5.2 - Enhanced Credit Management & Error Handling
 2 | 
 3 | ## 🎯 What's New
 4 | - **Improved Credit Balance Checks**: Enhanced validation to prevent negative credit balance issues
@@ -20202,14 +20202,14 @@ releases/RELEASE_NOTES_v0.5.2.md
 
 releases/RELEASE_NOTES_v0.6.0.md
 ```
-1 | # 🚀 ChatLima v0.6.0 - OpenRouter Pricing Analysis Tool
+1 | # 🚀 Aproject v0.6.0 - OpenRouter Pricing Analysis Tool
 2 | 
 3 | ## 🎯 What's New
 4 | 
 5 | - **📊 Real-time Pricing Analysis**: New developer tool to analyze OpenRouter model costs in real-time
 6 | - **💰 Cost Planning Dashboard**: Calculate estimated costs for different user scenarios (anonymous vs Google users)
-7 | - **📈 Data-Driven Insights**: Token estimates based on actual ChatLima usage data from 1,254 real API requests
-8 | - **🎯 Model Comparison**: Side-by-side cost analysis for all ChatLima-configured models
+7 | - **📈 Data-Driven Insights**: Token estimates based on actual Aproject usage data from 1,254 real API requests
+8 | - **🎯 Model Comparison**: Side-by-side cost analysis for all Aproject-configured models
 9 | - **📋 Formatted Reports**: Clean table output with daily/monthly cost projections
 10 | 
 11 | ## 🔧 Technical Implementation
@@ -20256,13 +20256,13 @@ releases/RELEASE_NOTES_v0.6.0.md
 52 | ## 📊 Data-Driven Accuracy
 53 | 
 54 | ### Real Usage Analysis:
-55 | - Analyzed **1,254 actual ChatLima requests** from OpenRouter API
+55 | - Analyzed **1,254 actual Aproject requests** from OpenRouter API
 56 | - **Input tokens**: 2,701 average (based on real avg: 2,251 + 20% buffer)
 57 | - **Output tokens**: 441 average (based on real avg: 368 + 20% buffer)
 58 | - **More accurate projections**: ~$0.003/request vs previous overestimates
 59 | 
 60 | ### Model Coverage:
-61 | - Analysis covers all ChatLima-configured models
+61 | - Analysis covers all Aproject-configured models
 62 | - Real-time pricing from OpenRouter API
 63 | - Cost comparison across 30+ AI models
 64 | 
@@ -20332,12 +20332,12 @@ releases/RELEASE_NOTES_v0.6.0.md
 128 | 
 129 | ## 🙏 Acknowledgments
 130 | 
-131 | This release includes pricing analysis based on real ChatLima usage data, providing developers with accurate, data-driven insights for cost optimization and model selection. 
+131 | This release includes pricing analysis based on real Aproject usage data, providing developers with accurate, data-driven insights for cost optimization and model selection. 
 ```
 
 releases/RELEASE_NOTES_v0.8.0.md
 ```
-1 | # 🚀 ChatLima v0.8.0 - Requesty Provider & Enhanced Model Selection
+1 | # 🚀 Aproject v0.8.0 - Requesty Provider & Enhanced Model Selection
 2 | 
 3 | ## 🎯 What's New
 4 | - **New AI Provider**: Introduced Requesty as a new AI provider option alongside OpenRouter, Anthropic, OpenAI, Groq, and X AI
@@ -20403,7 +20403,7 @@ releases/RELEASE_NOTES_v0.8.0.md
 
 releases/RELEASE_NOTES_v0.9.0.md
 ```
-1 | # 🚀 ChatLima v0.9.0 - Enhanced API Key Management
+1 | # 🚀 Aproject v0.9.0 - Enhanced API Key Management
 2 | 
 3 | ## 🎯 What's New
 4 | - **Dynamic API Key Management**: Runtime API key overrides for all AI providers
@@ -20449,7 +20449,7 @@ releases/RELEASE_NOTES_v0.9.0.md
 
 releases/RELEASE_NOTES_v0.9.1.md
 ```
-1 | # 🚀 ChatLima v0.9.1 - Smart Credit Validation
+1 | # 🚀 Aproject v0.9.1 - Smart Credit Validation
 2 | 
 3 | ## 🎯 What's New
 4 | - **Smart Credit Validation**: Intelligent credit checking that bypasses validation when users provide their own API keys
@@ -20598,7 +20598,7 @@ scripts/analyze-openrouter-data.py
 103 |         print(f"  • Total:   ${sum(costs):.4f}")
 104 |         print()
 105 |     
-106 |     # App-specific statistics (ChatLima focus)
+106 |     # App-specific statistics (Aproject focus)
 107 |     print("🎯 APP-SPECIFIC STATISTICS")
 108 |     print("-" * 30)
 109 |     for app_name, requests in app_stats.items():
@@ -20632,8 +20632,8 @@ scripts/analyze-openrouter-data.py
 137 |             print(f"  • Avg Cost: ${statistics.mean(model_costs):.6f}")
 138 |         print()
 139 |     
-140 |     # ChatLima-specific recommendations
-141 |     chatlima_data = [d for d in data if d['app_name'] == 'ChatLima']
+140 |     # Aproject-specific recommendations
+141 |     chatlima_data = [d for d in data if d['app_name'] == 'Aproject']
 142 |     if chatlima_data:
 143 |         print("🎯 CHATLIMA-SPECIFIC RECOMMENDATIONS")
 144 |         print("-" * 40)
@@ -20646,7 +20646,7 @@ scripts/analyze-openrouter-data.py
 151 |         median_prompt = statistics.median(chatlima_prompts)
 152 |         median_completion = statistics.median(chatlima_completions)
 153 |         
-154 |         print(f"Based on {len(chatlima_data)} ChatLima requests:")
+154 |         print(f"Based on {len(chatlima_data)} Aproject requests:")
 155 |         print()
 156 |         print(f"📊 Current estimates in script: 5000 input, 3000 output")
 157 |         print(f"📈 Actual averages: {avg_prompt:.0f} input, {avg_completion:.0f} output")
@@ -20673,7 +20673,7 @@ scripts/analyze-openrouter-data.py
 178 |             monthly_cost_google = daily_cost_google * 30
 179 |             
 180 |             print()
-181 |             print("💰 ACTUAL COST ANALYSIS (ChatLima):")
+181 |             print("💰 ACTUAL COST ANALYSIS (Aproject):")
 182 |             print(f"   Average cost per request: ${avg_cost_per_request:.6f}")
 183 |             print(f"   Anonymous users (10/day): ${daily_cost_anon:.6f}/day, ${monthly_cost_anon:.4f}/month")
 184 |             print(f"   Google users (20/day): ${daily_cost_google:.6f}/day, ${monthly_cost_google:.4f}/month")
@@ -21508,7 +21508,7 @@ scripts/test-model-endpoints.ts
 98 |         const response = await fetch(providerConfig.endpoint, {
 99 |             headers: {
 100 |                 'Authorization': `Bearer ${apiKey}`,
-101 |                 'User-Agent': 'ChatLima/1.0 Model Endpoint Tester'
+101 |                 'User-Agent': 'Aproject/1.0 Model Endpoint Tester'
 102 |             }
 103 |         });
 104 | 
@@ -21566,12 +21566,12 @@ scripts/test-model-endpoints.ts
 156 |             const headers: Record<string, string> = {
 157 |                 'Content-Type': 'application/json',
 158 |                 'Authorization': `Bearer ${apiKey}`,
-159 |                 'User-Agent': 'ChatLima/1.0 Model Endpoint Tester'
+159 |                 'User-Agent': 'Aproject/1.0 Model Endpoint Tester'
 160 |             };
 161 | 
 162 |             // Add provider-specific headers for both OpenRouter and Requesty
 163 |             headers['HTTP-Referer'] = 'https://chatlima.app';
-164 |             headers['X-Title'] = 'ChatLima Model Endpoint Test';
+164 |             headers['X-Title'] = 'Aproject Model Endpoint Test';
 165 | 
 166 |             const controller = new AbortController();
 167 |             const timeoutId = setTimeout(() => controller.abort(), this.config.requestTimeoutMs);
@@ -21865,7 +21865,7 @@ scripts/test-model-endpoints.ts
 
 tests/BASIC-TESTS.md
 ```
-1 | # ChatLima Basic UI Tests
+1 | # Aproject Basic UI Tests
 2 | 
 3 | ## Overview
 4 | 
@@ -21891,7 +21891,7 @@ tests/BASIC-TESTS.md
 24 | 
 25 | ### 1. Page Load Test
 26 | **What it tests:** Basic interface loads correctly
-27 | - Page title is "ChatLima"
+27 | - Page title is "Aproject"
 28 | - Main heading is visible
 29 | - Message input field is present
 30 | - Model picker dropdown is present
@@ -21998,7 +21998,7 @@ tests/auth.local.setup.ts
 5 | setup('authenticate locally', async ({ page }) => {
 6 |     console.log('🔐 Starting local authentication setup...');
 7 | 
-8 |     // Go to local ChatLima
+8 |     // Go to local Aproject
 9 |     await page.goto('/', { waitUntil: 'networkidle' });
 10 | 
 11 |     // Take a screenshot to see what we're dealing with
@@ -22011,13 +22011,13 @@ tests/auth.local.setup.ts
 18 |     // Wait for the page to stabilize
 19 |     await page.waitForTimeout(2000);
 20 | 
-21 |     // Check if we have ChatLima interface
-22 |     const chatLimaHeading = page.locator('h1:has-text("ChatLima")');
+21 |     // Check if we have Aproject interface
+22 |     const chatLimaHeading = page.locator('h1:has-text("Aproject")');
 23 |     const signInButton = page.getByRole('button', { name: 'Sign in with Google' });
 24 | 
-25 |     // Verify we have the ChatLima interface
+25 |     // Verify we have the Aproject interface
 26 |     await expect(chatLimaHeading).toBeVisible();
-27 |     console.log('✅ ChatLima interface detected on localhost');
+27 |     console.log('✅ Aproject interface detected on localhost');
 28 | 
 29 |     // Check if we need to sign in
 30 |     if (await signInButton.isVisible()) {
@@ -22047,7 +22047,7 @@ tests/auth.setup.ts
 5 | setup('authenticate', async ({ page }) => {
 6 |     console.log('🔐 Starting authentication setup...');
 7 | 
-8 |     // Go to ChatLima
+8 |     // Go to Aproject
 9 |     await page.goto('https://preview.chatlima.com/', { waitUntil: 'networkidle' });
 10 | 
 11 |     // Take a screenshot to see what we're dealing with
@@ -22068,12 +22068,12 @@ tests/auth.setup.ts
 26 |     // Wait for the page to stabilize
 27 |     await page.waitForTimeout(2000);
 28 | 
-29 |     // Check if we have ChatLima interface
-30 |     const chatLimaHeading = page.locator('h1:has-text("ChatLima")');
+29 |     // Check if we have Aproject interface
+30 |     const chatLimaHeading = page.locator('h1:has-text("Aproject")');
 31 |     const signInButton = page.getByRole('button', { name: 'Sign in with Google' });
 32 | 
 33 |     if (await chatLimaHeading.isVisible()) {
-34 |         console.log('✅ ChatLima interface detected');
+34 |         console.log('✅ Aproject interface detected');
 35 | 
 36 |         // Check if we need to sign in
 37 |         if (await signInButton.isVisible()) {
@@ -22107,9 +22107,9 @@ tests/auth.setup.ts
 65 |                         console.log('⏳ Please sign in manually in the browser. Waiting up to 60 seconds...');
 66 |                     }
 67 | 
-68 |                     // Wait to be redirected back to ChatLima
+68 |                     // Wait to be redirected back to Aproject
 69 |                     await page.waitForURL(/preview\.chatlima\.com/, { timeout: 60000 });
-70 |                     console.log('🔄 Redirected back to ChatLima');
+70 |                     console.log('🔄 Redirected back to Aproject');
 71 |                 }
 72 |             } catch (error) {
 73 |                 console.log('⚠️ Authentication flow error:', error);
@@ -22122,12 +22122,12 @@ tests/auth.setup.ts
 80 |         // Wait for the interface to settle
 81 |         await page.waitForTimeout(3000);
 82 | 
-83 |         // Verify we have the ChatLima interface
+83 |         // Verify we have the Aproject interface
 84 |         await expect(chatLimaHeading).toBeVisible();
-85 |         console.log('✅ ChatLima interface confirmed');
+85 |         console.log('✅ Aproject interface confirmed');
 86 | 
 87 |     } else {
-88 |         console.log('❌ ChatLima interface not detected');
+88 |         console.log('❌ Aproject interface not detected');
 89 |         console.log('🔍 Current URL:', page.url());
 90 |         console.log('📄 Current title:', await page.title());
 91 | 
@@ -22150,17 +22150,17 @@ tests/basic-ui.spec.ts
 ```
 1 | import { test, expect } from '@playwright/test';
 2 | 
-3 | test.describe('ChatLima Basic UI Tests', () => {
+3 | test.describe('Aproject Basic UI Tests', () => {
 4 | 
 5 |     test('should load page and display core interface elements', async ({ page }) => {
 6 |         // Navigate to the home page
 7 |         await page.goto('/');
 8 | 
 9 |         // Verify the page title
-10 |         await expect(page).toHaveTitle('ChatLima');
+10 |         await expect(page).toHaveTitle('Aproject');
 11 | 
 12 |         // Verify the main heading is visible
-13 |         await expect(page.getByRole('heading', { name: 'ChatLima' })).toBeVisible();
+13 |         await expect(page.getByRole('heading', { name: 'Aproject' })).toBeVisible();
 14 | 
 15 |         // Verify the message input field is present
 16 |         await expect(page.getByPlaceholder('Send a message...')).toBeVisible();
@@ -22235,8 +22235,8 @@ tests/basic-ui.spec.ts
 85 |         // Navigate to the home page
 86 |         await page.goto('/');
 87 | 
-88 |         // Find the logo link - it should contain "ChatLima" text and be a link
-89 |         const logoLink = page.getByRole('link', { name: /ChatLima/i }).first();
+88 |         // Find the logo link - it should contain "Aproject" text and be a link
+89 |         const logoLink = page.getByRole('link', { name: /Aproject/i }).first();
 90 | 
 91 |         // Verify logo link is visible and clickable
 92 |         await expect(logoLink).toBeVisible();
@@ -22249,7 +22249,7 @@ tests/basic-ui.spec.ts
 99 |         await expect(page).toHaveURL('/');
 100 | 
 101 |         // Verify the page title is still correct
-102 |         await expect(page).toHaveTitle('ChatLima');
+102 |         await expect(page).toHaveTitle('Aproject');
 103 | 
 104 |         console.log('✅ Logo link navigation working correctly');
 105 |     });
@@ -22321,7 +22321,7 @@ tests/basic-ui.spec.ts
 171 |         await newChatButton.click();
 172 | 
 173 |         // Verify we're still on a valid page (could be home or new chat route)
-174 |         await expect(page).toHaveTitle('ChatLima');
+174 |         await expect(page).toHaveTitle('Aproject');
 175 | 
 176 |         // Verify the message input is still available (indicating chat interface is ready)
 177 |         await expect(page.getByPlaceholder('Send a message...')).toBeVisible();
@@ -22335,15 +22335,15 @@ tests/chatlima-anonymous-test.spec.ts
 ```
 1 | import { test, expect } from '@playwright/test';
 2 | 
-3 | test.describe('ChatLima Anonymous User Test', () => {
+3 | test.describe('Aproject Anonymous User Test', () => {
 4 |     test('should work with anonymous authentication', async ({ page }) => {
-5 |         // Step 1: Navigate to ChatLima (using baseURL from config)
+5 |         // Step 1: Navigate to Aproject (using baseURL from config)
 6 |         await page.goto('/');
 7 | 
 8 |         // Wait for page to load
-9 |         await expect(page).toHaveTitle('ChatLima');
+9 |         await expect(page).toHaveTitle('Aproject');
 10 | 
-11 |         // Since ChatLima supports anonymous users, we should be able to use it without signing in
+11 |         // Since Aproject supports anonymous users, we should be able to use it without signing in
 12 |         // Wait for the interface to load
 13 |         await page.waitForLoadState('networkidle');
 14 | 
@@ -22365,7 +22365,7 @@ tests/chatlima-anonymous-test.spec.ts
 30 |         } else {
 31 |             console.log('💡 DeepSeek model not available, testing with default model');
 32 |             // Close the dropdown by clicking somewhere else
-33 |             await page.click('h1:has-text("ChatLima")');
+33 |             await page.click('h1:has-text("Aproject")');
 34 |         }
 35 | 
 36 |         // Step 5: Type test message in the input field
@@ -22421,11 +22421,11 @@ tests/chatlima-anonymous-test.spec.ts
 86 |     });
 87 | 
 88 |     test('should have proper interface elements for anonymous users', async ({ page }) => {
-89 |         // Navigate to ChatLima (using baseURL from config)
+89 |         // Navigate to Aproject (using baseURL from config)
 90 |         await page.goto('/');
 91 | 
-92 |         // Check if ChatLima interface is loaded
-93 |         await expect(page.getByRole('heading', { name: 'ChatLima' })).toBeVisible();
+92 |         // Check if Aproject interface is loaded
+93 |         await expect(page.getByRole('heading', { name: 'Aproject' })).toBeVisible();
 94 | 
 95 |         // Verify input field is ready
 96 |         await expect(page.getByRole('textbox', { name: 'Send a message...' })).toBeVisible();
@@ -22450,13 +22450,13 @@ tests/chatlima-deepseek-test.spec.ts
 ```
 1 | import { test, expect } from '@playwright/test';
 2 | 
-3 | test.describe('ChatLima DeepSeek Model Test', () => {
+3 | test.describe('Aproject DeepSeek Model Test', () => {
 4 |     test('should select DeepSeek Chat V3 0324 model, send message, and receive response', async ({ page }) => {
-5 |         // Step 1: Navigate to ChatLima (using baseURL from config)
+5 |         // Step 1: Navigate to Aproject (using baseURL from config)
 6 |         await page.goto('/');
 7 | 
 8 |         // Wait for page to load
-9 |         await expect(page).toHaveTitle('ChatLima');
+9 |         await expect(page).toHaveTitle('Aproject');
 10 | 
 11 |         // Step 2: Click on the model selector dropdown
 12 |         await page.getByRole('combobox').first().click();
@@ -22523,7 +22523,7 @@ tests/chatlima-deepseek-test.spec.ts
 73 |     });
 74 | 
 75 |     test('should handle model selection and maintain state', async ({ page }) => {
-76 |         // Navigate to ChatLima (using baseURL from config)
+76 |         // Navigate to Aproject (using baseURL from config)
 77 |         await page.goto('/');
 78 | 
 79 |         // Open model selector
@@ -22668,7 +22668,7 @@ tests/premium-model-security.spec.ts
 5 | ---
 6 | # Feature Branch Creation Workflow
 7 | 
-8 | This rule provides a standardized workflow for creating new feature branches in the ChatLima project, ensuring consistent naming conventions, proper setup, and clear documentation.
+8 | This rule provides a standardized workflow for creating new feature branches in the Aproject project, ensuring consistent naming conventions, proper setup, and clear documentation.
 9 | 
 10 | ## 🌟 Branch Creation Process
 11 | 
@@ -22943,7 +22943,7 @@ tests/premium-model-security.spec.ts
 280 | - Consider creating draft PRs early for feedback
 281 | 
 282 | ### Project-Specific Considerations:
-283 | For ChatLima specifically, consider these areas when creating branches:
+283 | For Aproject specifically, consider these areas when creating branches:
 284 | - **Authentication**: Features related to [auth-schema.ts](mdc:chatlima/auth-schema.ts)
 285 | - **API Routes**: New endpoints in [app/api/](mdc:chatlima/app/api)
 286 | - **Database**: Changes requiring [drizzle/](mdc:chatlima/drizzle) migrations
@@ -22996,7 +22996,7 @@ tests/premium-model-security.spec.ts
 5 | ---
 6 | # Feature Release Workflow
 7 | 
-8 | This rule provides a complete workflow for releasing new features in the ChatLima project, from merging feature branches to creating GitHub release notes.
+8 | This rule provides a complete workflow for releasing new features in the Aproject project, from merging feature branches to creating GitHub release notes.
 9 | 
 10 | ## 🔄 Complete Release Process
 11 | 
@@ -23055,7 +23055,7 @@ tests/premium-model-security.spec.ts
 64 | 
 65 | #### Template Structure:
 66 | ```markdown
-67 | # 🚀 ChatLima v[VERSION] - [FEATURE_NAME]
+67 | # 🚀 Aproject v[VERSION] - [FEATURE_NAME]
 68 | 
 69 | ## 🎯 What's New
 70 | - List major features added
@@ -23457,7 +23457,7 @@ tests/premium-model-security.spec.ts
 5 | ---
 6 | # Quick Branch Commands Reference
 7 | 
-8 | Quick reference for common feature branch operations in ChatLima.
+8 | Quick reference for common feature branch operations in Aproject.
 9 | 
 10 | ## 🚀 Create New Feature Branch
 11 | ```bash
@@ -25884,14 +25884,14 @@ __tests__/components/chat-sidebar.test.tsx
 545 |       expect(screen.queryByTestId('skeleton')).not.toBeInTheDocument();
 546 |     });
 547 | 
-548 |     test('displays ChatLima logo and title', () => {
+548 |     test('displays Aproject logo and title', () => {
 549 |       render(<ChatSidebar />);
 550 |       
 551 |       const logo = screen.getByTestId('next-image');
 552 |       expect(logo).toHaveAttribute('src', '/logo.png');
-553 |       expect(logo).toHaveAttribute('alt', 'ChatLima logo');
+553 |       expect(logo).toHaveAttribute('alt', 'Aproject logo');
 554 |       
-555 |       expect(screen.getByText('ChatLima')).toBeInTheDocument();
+555 |       expect(screen.getByText('Aproject')).toBeInTheDocument();
 556 |     });
 557 |   });
 558 | 
@@ -31404,7 +31404,7 @@ __tests__/components/ios-install-prompt.test.tsx
 126 |       await waitFor(() => {
 127 |         expect(screen.getByTestId('card')).toBeInTheDocument();
 128 |         expect(screen.getByRole('heading', { name: 'Add to Home Screen' })).toBeInTheDocument();
-129 |         expect(screen.getByText('Quick access to ChatLima')).toBeInTheDocument();
+129 |         expect(screen.getByText('Quick access to Aproject')).toBeInTheDocument();
 130 |       });
 131 |     });
 132 | 
@@ -31846,7 +31846,7 @@ __tests__/components/ios-install-prompt.test.tsx
 568 | 
 569 |     test('has proper heading structure', () => {
 570 |       expect(screen.getByRole('heading', { name: 'Add to Home Screen' })).toBeInTheDocument();
-571 |       expect(screen.getByText('Quick access to ChatLima')).toBeInTheDocument();
+571 |       expect(screen.getByText('Quick access to Aproject')).toBeInTheDocument();
 572 |     });
 573 | 
 574 |     test('has accessible buttons with proper labels', () => {
@@ -36338,7 +36338,7 @@ __tests__/components/project-overview.test.tsx
 142 |       render(<ProjectOverview sendMessage={mockSendMessage} />);
 143 |       
 144 |       const heading = screen.getByRole('heading', { level: 1 });
-145 |       expect(heading).toHaveTextContent('Welcome to ChatLima');
+145 |       expect(heading).toHaveTextContent('Welcome to Aproject');
 146 |     });
 147 | 
 148 |     test('provides descriptive text for screen readers', () => {
@@ -39669,12 +39669,12 @@ __tests__/components/top-nav.test.tsx
 164 |       expect(nav).toHaveClass('sticky', 'top-0', 'z-50');
 165 |     });
 166 | 
-167 |     test('renders ChatLima title', () => {
+167 |     test('renders Aproject title', () => {
 168 |       renderWithProviders(<TopNav />);
 169 |       
 170 |       const title = screen.getByRole('heading', { level: 1 });
 171 |       expect(title).toBeInTheDocument();
-172 |       expect(title).toHaveTextContent('ChatLima');
+172 |       expect(title).toHaveTextContent('Aproject');
 173 |       expect(title).toHaveClass('text-3xl', 'font-semibold');
 174 |     });
 175 | 
@@ -39805,7 +39805,7 @@ __tests__/components/top-nav.test.tsx
 300 |       
 301 |       const heading = screen.getByRole('heading', { level: 1 });
 302 |       expect(heading).toBeInTheDocument();
-303 |       expect(heading).toHaveTextContent('ChatLima');
+303 |       expect(heading).toHaveTextContent('Aproject');
 304 |     });
 305 |   });
 306 | 
@@ -39869,7 +39869,7 @@ __tests__/components/top-nav.test.tsx
 364 |       
 365 |       // User sees the navigation bar
 366 |       expect(screen.getByRole('navigation')).toBeInTheDocument();
-367 |       expect(screen.getByText('ChatLima')).toBeInTheDocument();
+367 |       expect(screen.getByText('Aproject')).toBeInTheDocument();
 368 |       
 369 |       // User can interact with sidebar trigger
 370 |       const menuButton = screen.getByRole('button', { name: /open sidebar/i });
@@ -40325,8 +40325,8 @@ __tests__/components/web-search-suggestion.test.tsx
 app/privacy/page.tsx
 ```
 1 | export const metadata = {
-2 |   title: 'Privacy Policy - ChatLima',
-3 |   description: 'Privacy Policy for using the ChatLima platform',
+2 |   title: 'Privacy Policy - Aproject',
+3 |   description: 'Privacy Policy for using the Aproject platform',
 4 | };
 5 | 
 6 | export default function PrivacyPage() {
@@ -40345,7 +40345,7 @@ app/privacy/page.tsx
 19 |               <section>
 20 |                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Introduction</h2>
 21 |                 <p className="text-gray-700 leading-relaxed">
-22 |                   Welcome to ChatLima (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). 
+22 |                   Welcome to Aproject (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). 
 23 |                   This Privacy Policy explains how we collect, use, and protect your information when you use our website 
 24 |                   (https://chatlima.com) and services, including our AI-powered chat platform, APIs, and related features.
 25 |                 </p>
@@ -40694,8 +40694,8 @@ app/sitemap.xml/route.ts
 app/terms/page.tsx
 ```
 1 | export const metadata = {
-2 |   title: 'Terms of Service - ChatLima',
-3 |   description: 'Terms of Service for using the ChatLima platform',
+2 |   title: 'Terms of Service - Aproject',
+3 |   description: 'Terms of Service for using the Aproject platform',
 4 | };
 5 | 
 6 | export default function TermsPage() {
@@ -40714,7 +40714,7 @@ app/terms/page.tsx
 19 |               <section>
 20 |                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
 21 |                 <p className="text-gray-700 leading-relaxed">
-22 |                   Welcome to ChatLima (“we,” “our,” or “us”). By accessing or using our website (https://chatlima.com) and
+22 |                   Welcome to Aproject (“we,” “our,” or “us”). By accessing or using our website (https://chatlima.com) and
 23 |                   services, including any AI-powered chat experiences, APIs, or related features (collectively, the “Platform”),
 24 |                   you agree to be bound by these Terms of Service (“Terms”). Please read these Terms carefully before using the Platform.
 25 |                 </p>
@@ -40725,7 +40725,7 @@ app/terms/page.tsx
 30 |                 <ul className="space-y-2 text-gray-700">
 31 |                   <li className="flex items-baseline space-x-2">
 32 |                     <span className="font-medium">“Platform”</span>
-33 |                     <span>refers to the ChatLima website, applications, APIs, and all related services.</span>
+33 |                     <span>refers to the Aproject website, applications, APIs, and all related services.</span>
 34 |                   </li>
 35 |                   <li className="flex items-baseline space-x-2">
 36 |                     <span className="font-medium">“Content”</span>
@@ -40904,7 +40904,7 @@ app/terms/page.tsx
 209 |               <section>
 210 |                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">12. Indemnification</h2>
 211 |                 <p className="text-gray-700">
-212 |                   You agree to defend, indemnify, and hold harmless ChatLima and its affiliates, officers, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising from or related to your use of the Platform, your User Content, or your violation of these Terms or applicable law.
+212 |                   You agree to defend, indemnify, and hold harmless Aproject and its affiliates, officers, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising from or related to your use of the Platform, your User Content, or your violation of these Terms or applicable law.
 213 |                 </p>
 214 |               </section>
 215 | 
@@ -40965,7 +40965,7 @@ app/terms/page.tsx
 270 |               <section>
 271 |                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">17. Entire Agreement</h2>
 272 |                 <p className="text-gray-700">
-273 |                   These Terms constitute the entire agreement between you and ChatLima regarding your use of the Platform and supersede any prior agreements on this subject.
+273 |                   These Terms constitute the entire agreement between you and Aproject regarding your use of the Platform and supersede any prior agreements on this subject.
 274 |                 </p>
 275 |               </section>
 276 | 
@@ -56205,7 +56205,7 @@ lib/models/fetch-models.ts
 159 |                     'Authorization': `Bearer ${apiKey}`,
 160 |                     'Content-Type': 'application/json',
 161 |                     'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://www.chatlima.com/',
-162 |                     'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'ChatLima',
+162 |                     'X-Title': process.env.NEXT_PUBLIC_APP_TITLE || 'Aproject',
 163 |                 },
 164 |                 signal,
 165 |             });
@@ -60389,7 +60389,7 @@ app/presets/shared/[shareId]/page.tsx
 177 |               <div className="flex-1">
 178 |                 <CardTitle className="text-xl">{preset.name}</CardTitle>
 179 |                 <CardDescription className="mt-2">
-180 |                   A shared preset from ChatLima
+180 |                   A shared preset from Aproject
 181 |                 </CardDescription>
 182 |               </div>
 183 |               <Button

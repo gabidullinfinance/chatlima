@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.17.2 - Model Picker UI Fix
+# 🚀 Aproject v0.17.2 - Model Picker UI Fix
 
 ## 🎯 What's New
 - **Fixed Model Picker UI Glitch**: Resolved an annoying layout issue where the model picker button would visually "flip" or change content when hovering over different models in the dropdown

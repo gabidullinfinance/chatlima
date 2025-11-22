@@ -103,7 +103,7 @@ def analyze_openrouter_data(csv_file_path):
         print(f"  • Total:   ${sum(costs):.4f}")
         print()
     
-    # App-specific statistics (ChatLima focus)
+    # App-specific statistics (Aproject focus)
     print("🎯 APP-SPECIFIC STATISTICS")
     print("-" * 30)
     for app_name, requests in app_stats.items():
@@ -137,8 +137,8 @@ def analyze_openrouter_data(csv_file_path):
             print(f"  • Avg Cost: ${statistics.mean(model_costs):.6f}")
         print()
     
-    # ChatLima-specific recommendations
-    chatlima_data = [d for d in data if d['app_name'] == 'ChatLima']
+    # Aproject-specific recommendations
+    chatlima_data = [d for d in data if d['app_name'] == 'Aproject']
     if chatlima_data:
         print("🎯 CHATLIMA-SPECIFIC RECOMMENDATIONS")
         print("-" * 40)
@@ -151,7 +151,7 @@ def analyze_openrouter_data(csv_file_path):
         median_prompt = statistics.median(chatlima_prompts)
         median_completion = statistics.median(chatlima_completions)
         
-        print(f"Based on {len(chatlima_data)} ChatLima requests:")
+        print(f"Based on {len(chatlima_data)} Aproject requests:")
         print()
         print(f"📊 Current estimates in script: 5000 input, 3000 output")
         print(f"📈 Actual averages: {avg_prompt:.0f} input, {avg_completion:.0f} output")
@@ -178,7 +178,7 @@ def analyze_openrouter_data(csv_file_path):
             monthly_cost_google = daily_cost_google * 30
             
             print()
-            print("💰 ACTUAL COST ANALYSIS (ChatLima):")
+            print("💰 ACTUAL COST ANALYSIS (Aproject):")
             print(f"   Average cost per request: ${avg_cost_per_request:.6f}")
             print(f"   Anonymous users (10/day): ${daily_cost_anon:.6f}/day, ${monthly_cost_anon:.4f}/month")
             print(f"   Google users (20/day): ${daily_cost_google:.6f}/day, ${monthly_cost_google:.4f}/month")

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.5.0 - Premium Access Control & Enhanced Model Management
+# 🚀 Aproject v0.5.0 - Premium Access Control & Enhanced Model Management
 
 ## 🎯 What's New
 - **Premium Model Access Control**: Introduced intelligent credit checking system for premium AI models

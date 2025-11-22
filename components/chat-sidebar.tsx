@@ -274,10 +274,10 @@ export function ChatSidebar() {
                         <div className="flex items-center justify-between">
                             <Link href="/" className={`flex items-center gap-2 hover:opacity-80 transition-opacity ${isLayoutCollapsed ? "justify-center w-full" : ""}`}>
                                 <div className={`flex items-center justify-center rounded-full bg-primary ${isLayoutCollapsed ? 'h-6 w-6 flex-shrink-0' : 'h-8 w-8'}`}>
-                                    <Image src="/logo.png" alt="ChatLima logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
+                                    <Image src="/logo.png" alt="Aproject logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
                                 </div>
                                 {!isLayoutCollapsed && (
-                                    <div className="font-semibold text-lg text-foreground/90">ChatLima</div>
+                                    <div className="font-semibold text-lg text-foreground/90">Aproject</div>
                                 )}
                             </Link>
                         </div>
@@ -359,10 +359,10 @@ export function ChatSidebar() {
                     <div className="flex items-center justify-between">
                         <Link href="/" className={`flex items-center gap-2 hover:opacity-80 transition-opacity ${isLayoutCollapsed ? "justify-center w-full" : ""}`}>
                             <div className={`flex items-center justify-center rounded-full bg-primary ${isLayoutCollapsed ? 'h-6 w-6 flex-shrink-0' : 'h-8 w-8'}`}>
-                                <Image src="/logo.png" alt="ChatLima logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
+                                <Image src="/logo.png" alt="Aproject logo" width={32} height={32} className={`${isLayoutCollapsed ? 'h-4 w-4' : 'h-6 w-6'}`} />
                             </div>
                             {!isLayoutCollapsed && (
-                                <div className="font-semibold text-lg text-foreground/90">ChatLima</div>
+                                <div className="font-semibold text-lg text-foreground/90">Aproject</div>
                             )}
                         </Link>
 
@@ -548,7 +548,7 @@ export function ChatSidebar() {
                                 </Link>
                             </TooltipTrigger>
                             <TooltipContent side="top" sideOffset={5}>
-                                ChatLima on GitHub
+                                Aproject on GitHub
                             </TooltipContent>
                         </Tooltip>
 

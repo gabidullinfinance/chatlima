@@ -51,9 +51,9 @@ export function TopNav() {
           </SidebarTrigger>
         </div>
         
-        {/* ChatLima title - Truly centered */}
+        {/* Aproject title - Truly centered */}
         <div className="flex-1 flex justify-center">
-          <h1 className="text-3xl font-semibold">ChatLima</h1>
+          <h1 className="text-3xl font-semibold">Aproject</h1>
         </div>
         
         {/* Action buttons - Right side */}

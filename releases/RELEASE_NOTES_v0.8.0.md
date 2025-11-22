@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.8.0 - Requesty Provider & Enhanced Model Selection
+# 🚀 Aproject v0.8.0 - Requesty Provider & Enhanced Model Selection
 
 ## 🎯 What's New
 - **New AI Provider**: Introduced Requesty as a new AI provider option alongside OpenRouter, Anthropic, OpenAI, Groq, and X AI

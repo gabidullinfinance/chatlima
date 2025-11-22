@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.17.0 - Latest MCP Spec Implementation
+# 🚀 Aproject v0.17.0 - Latest MCP Spec Implementation
 
 ## 🎯 What's New
 
@@ -124,7 +124,7 @@ vercel deploy --prod
 
 ## 🎉 Looking Forward
 
-This release establishes ChatLima as a cutting-edge MCP-compatible platform, ready for the next generation of AI tool integration. The foundation is now in place for implementing advanced features like:
+This release establishes Aproject as a cutting-edge MCP-compatible platform, ready for the next generation of AI tool integration. The foundation is now in place for implementing advanced features like:
 
 - **Resource Links**: Direct linking to files and resources from tool outputs
 - **Interactive Workflows**: User confirmation and input collection via elicitation

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.3.0 - SEO & Sitemap Implementation
+# 🚀 Aproject v0.3.0 - SEO & Sitemap Implementation
 
 ## 🎯 What's New
 

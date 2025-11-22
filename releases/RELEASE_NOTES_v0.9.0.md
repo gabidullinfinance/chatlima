@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.9.0 - Enhanced API Key Management
+# 🚀 Aproject v0.9.0 - Enhanced API Key Management
 
 ## 🎯 What's New
 - **Dynamic API Key Management**: Runtime API key overrides for all AI providers

@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.22.2 - Documentation & Release Process Improvements
+# 🚀 Aproject v0.22.2 - Documentation & Release Process Improvements
 
 ## 🎯 What's New
 - Enhanced release documentation and process standardization

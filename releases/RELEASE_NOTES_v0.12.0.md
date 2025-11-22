@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.12.0 - Polar Production Checkout Integration
+# 🚀 Aproject v0.12.0 - Polar Production Checkout Integration
 
 ## 🎯 What's New
 - **Production Checkout System**: Complete Polar checkout integration with user-friendly purchase flow

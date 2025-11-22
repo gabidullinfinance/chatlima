@@ -1,4 +1,4 @@
-# 🔐 ChatLima v0.12.1 - Web Search Security & Credit Validation Fix
+# 🔐 Aproject v0.12.1 - Web Search Security & Credit Validation Fix
 
 ## 🎯 What's Fixed
 - **Enhanced Web Search Security**: Implemented robust server-side validation for web search feature access

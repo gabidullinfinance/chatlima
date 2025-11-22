@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.23.0 - Enhanced Error Recovery & Model Expansion
+# 🚀 Aproject v0.23.0 - Enhanced Error Recovery & Model Expansion
 
 ## 🎯 What's New
 - **New Groq Kimi K2 Model**: Added ultra-fast Groq variant of Moonshot AI's Kimi K2 model for enhanced performance

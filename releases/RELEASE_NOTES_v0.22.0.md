@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.22.0 - Requesty Model Expansion & Model Selection Improvements
+# 🚀 Aproject v0.22.0 - Requesty Model Expansion & Model Selection Improvements
 
 ## 🎯 What's New
 - **🆕 Major Requesty Model Expansion**: Added a wide range of new Requesty models, including the latest Anthropic Claude 4, Claude 3.5/3.7, DeepSeek, Google Gemini, Meta Llama, and more. Users now have access to dozens of new models via Requesty, greatly expanding the available AI model library.

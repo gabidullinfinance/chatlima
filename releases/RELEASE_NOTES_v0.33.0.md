@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.33.0 - PDF Download & Export Enhancement
+# 🚀 Aproject v0.33.0 - PDF Download & Export Enhancement
 
 ## 🎯 What's New
 - **📄 PDF Download Functionality**: Added comprehensive PDF export capability for chat conversations
@@ -11,7 +11,7 @@
 ## 🔧 Technical Implementation
 - **PDF Generation Service**: Implemented comprehensive PDF generation using jsPDF library
 - **Markdown Processing**: Enhanced markdown rendering with proper header hierarchy and code formatting
-- **Brand Integration**: Added ChatLima.com text branding in header and footer elements
+- **Brand Integration**: Added Aproject.com text branding in header and footer elements
 - **Responsive Design**: PDF layout adapts to different content lengths and conversation sizes
 - **Error Handling**: Robust error handling with fallback mechanisms for PDF generation failures
 - **Performance Optimization**: Efficient PDF generation with minimal memory footprint
@@ -52,7 +52,7 @@
 ## 📋 Technical Details
 
 ### PDF Generation Features:
-- **Header Branding**: ChatLima.com text branding in PDF header
+- **Header Branding**: Aproject.com text branding in PDF header
 - **Footer Information**: Page numbers and generation timestamp
 - **Markdown Support**: Full rendering of markdown content including:
   - Headers (H1-H6) with proper hierarchy

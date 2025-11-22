@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Privacy Policy - ChatLima',
-  description: 'Privacy Policy for using the ChatLima platform',
+  title: 'Privacy Policy - Aproject',
+  description: 'Privacy Policy for using the Aproject platform',
 };
 
 export default function PrivacyPage() {
@@ -19,7 +19,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Introduction</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Welcome to ChatLima (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). 
+                  Welcome to Aproject (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). 
                   This Privacy Policy explains how we collect, use, and protect your information when you use our website 
                   (https://chatlima.com) and services, including our AI-powered chat platform, APIs, and related features.
                 </p>

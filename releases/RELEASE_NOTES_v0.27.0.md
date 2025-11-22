@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.27.0 - Intelligent Suggested Prompts & Enhanced UX
+# 🚀 Aproject v0.27.0 - Intelligent Suggested Prompts & Enhanced UX
 
 ## 🎯 What's New
 

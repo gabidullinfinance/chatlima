@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.11.0 - Polar Integration & Enhanced Features
+# 🚀 Aproject v0.11.0 - Polar Integration & Enhanced Features
 
 ## 🎯 What's New
 - **Polar Integration**: Complete integration with Polar billing platform for customer management and payments

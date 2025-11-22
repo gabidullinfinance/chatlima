@@ -177,7 +177,7 @@ export default function SharedPresetPage() {
               <div className="flex-1">
                 <CardTitle className="text-xl">{preset.name}</CardTitle>
                 <CardDescription className="mt-2">
-                  A shared preset from ChatLima
+                  A shared preset from Aproject
                 </CardDescription>
               </div>
               <Button

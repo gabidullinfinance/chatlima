@@ -5,7 +5,7 @@ alwaysApply: false
 ---
 # Feature Release Workflow
 
-This rule provides a complete workflow for releasing new features in the ChatLima project, from merging feature branches to creating GitHub release notes.
+This rule provides a complete workflow for releasing new features in the Aproject project, from merging feature branches to creating GitHub release notes.
 
 ## 🔄 Complete Release Process
 
@@ -64,7 +64,7 @@ Generate comprehensive release notes following this structure:
 
 #### Template Structure:
 ```markdown
-# 🚀 ChatLima v[VERSION] - [FEATURE_NAME]
+# 🚀 Aproject v[VERSION] - [FEATURE_NAME]
 
 ## 🎯 What's New
 - List major features added

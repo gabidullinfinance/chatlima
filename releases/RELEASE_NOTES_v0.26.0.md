@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.26.0 - Favorite Models & Enhanced UX
+# 🚀 Aproject v0.26.0 - Favorite Models & Enhanced UX
 
 ## 🎯 What's New
 

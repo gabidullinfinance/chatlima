@@ -1,4 +1,4 @@
-# 🚀 ChatLima v0.16.0 - Enhanced Model Selection & Mobile Experience
+# 🚀 Aproject v0.16.0 - Enhanced Model Selection & Mobile Experience
 
 ## 🎯 What's New
 

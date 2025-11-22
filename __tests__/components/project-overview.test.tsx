@@ -142,7 +142,7 @@ describe('ProjectOverview', () => {
       render(<ProjectOverview sendMessage={mockSendMessage} />);
       
       const heading = screen.getByRole('heading', { level: 1 });
-      expect(heading).toHaveTextContent('Welcome to ChatLima');
+      expect(heading).toHaveTextContent('Welcome to Aproject');
     });
 
     test('provides descriptive text for screen readers', () => {
